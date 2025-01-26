@@ -1,0 +1,30 @@
+Module 1 - Assignment Part 2
+
+    Due Jan 29 by 11:59pm Points 100 Submitting a text entry box or a file upload
+
+Now that you are experienced with using the various tools that report vulnerabilities and exploits, select three different exploits (don't use same exploits from Assignment Part 1) and answer the below questions, submitting the assignment as a word or pdf document to CANVAS.  You will be graded on accuracy of the information at the time of its writing (you will not lose points if the sources used retract or otherwise change information).   
+
+Ones used in the past; WastedLocker, Crimson RAT, Taidoor, Blindingcan, Dridex, Lucifer, Lockbit, Fareit, Kovter, and Mirai Botnet.  Note: can also use CVE's, CPE's, CCE's or CWE's, i.e., CVE-2020-1380. or CWE-1425.   (e.g. NIST Security Content Automation Protocol). Can discuss malware that effects Internet of Things (IoT), Operational Technology (OT)/Control Systems (CS), IT Enterprise/Legacy, Smart Devices, etc.
+
+ 
+
+Please answer the following 12 questions bulletized below.  (if no data found, list N/A):
+
+    The name of exploit in the various threat databases
+    Links to entries in each of the databases
+    The date the exploit was reported
+    What system/services the exploit targets
+    The exploit’s severity
+    A listing of all known advisories associated with the threat (links to the advisories must be included)
+    The exploits propagation method
+    A mitigation method (if any exists)
+    A method of detecting the exploit (if any exists)
+    Listed mitigation strategies or patches released from vendors
+    Adversary Threat Tier (ATT) Actor known to exploit vulnerability (if listed)
+    Tactic, Technique, and Procedure (TTP) used to exploit vulnerability
+
+ 
+
+Note: please list the question then the answer.  Cite all sources used.  
+
+Due next Wed @ 1159pm EST

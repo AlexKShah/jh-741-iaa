@@ -1,0 +1,401 @@
+Module 1 - Assignment Part 1
+
+For each malware: SQLSlammer, WannaCry, Duqu, Flame, Stuxnet, Opasrv, Melissa, and Koobface answer the following questions:
+
+1. Choose any Vendor or Government DB and look up the above listed malware. Then answer the remaining questions. Examples of websites are included within Module 1- Assignment Part 1. Good Intel DB places to start: McAfee, Symantec, Trend Micro, MITRE.
+
+2. Does the name and list of variants match 1:1 between the databases in Question 1? Describe the relationship you do see.
+
+3. Use the National Vulnerability Database (https://nvd.nist.gov/), BugTraq (http://www.securityfocus.com/archives), and Full-­­Disclosure (http://seclists.org/fulldisclosure/) to list at least 3 advisories that relate to this worm.
+
+4. Describe how the worm is propagated.
+
+5. Describe how you would detect this propagation.
+
+6. If the worm had a variant, describe at least one of these variants and if your proposed detection method would still be affective in detecting the variant.
+
+    Due Jan 29 by 11:59pm Points 100 Submitting a text entry box or a file upload
+
+The assignment for Module 1 is attached as a PDF, scroll down to obtain it. Download the assignment and answer each question. Answers should not exceed more than one page per question.   Submit the assignment in either Word or PDF format to CANVAS.  
+
+Due by next Wed @ 1159pm EST
+
+ 
+
+Attached assignment:  Assignment1-2.newest.pdf
+
+ 
+
+NOTE:  please list all references/url's used to locate malware
+
+Below are some suggested urls to use/starting points:
+
+http://marc.info/?l=bugtraq&m=102760196931518&w=2
+
+Links to an external site.
+
+http://www.cert.org/advisories/CA-2002-22.html
+
+Links to an external site.
+
+https://nmap.org/nsedoc/scripts/smb-vuln-ms17-010.html
+
+Links to an external site.
+
+https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2017-0144
+
+Links to an external site.
+
+http://technet.microsoft.com/security/advisory/2639658
+
+Links to an external site.
+
+http://www.securelist.com/en/blog/208193197/The_Mystery_of_Duqu_Part_Two
+
+Links to an external site.
+
+https://www.telegraph.co.uk/news/worldnews/middleeast/iran/9295938/Flame-worlds-most-complex-computer-virus-exposed.html
+
+Links to an external site.
+
+https://www.webcitation.org/68347vKEs?url=https://www.securelist.com/en/blog/208193522/The_Flame_Questions_and_Answers
+
+Links to an external site.
+
+https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-073
+
+Links to an external site.
+
+https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7514
+
+Links to an external site.
+
+https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/W32~Opaserv-O/detailed-analysis.aspx
+
+Links to an external site.
+
+https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Win32%2FOpaserv
+
+Links to an external site.
+
+https://www.fbi.gov/news/stories/melissa-virus-20th-anniversary-032519
+
+Links to an external site.
+
+https://www.kaspersky.com/resource-center/definitions/what-is-the-koobface-virus
+
+Links to an external site.
+
+http://www.npr.org/sections/thetwo-way/2017/05/15/528451534/wannacry-ransomware-what-we-know-monday
+
+Links to an external site.
+
+https://www.infosecurity-magazine.com:443/news/stuxnet-returns-striking-iran-with/
+
+Links to an external site.
+
+https://www.vice.com/en_us/article/d3maw7/researchers-uncover-new-version-of-the-infamous-flame-malware
+
+Links to an external site.
+
+https://www.computerworld.com/article/2499146/duqu-trojan-a-precursor-to-next-stuxnet--symantec-warns.html
+
+Links to an external site. 
+
+https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware
+
+Links to an external site. 
+
+https://www.securitytracker.com
+
+Links to an external site.
+
+https://oval.cisecurity.org/repository/search/definition/oval:org.mitre.oval%3Adef%3A7514
+
+Links to an external site.
+
+https://cve.mitre.org
+
+Links to an external site. 
+
+https://docs.microsoft.com/en-us/security-updates/securitybulletins
+
+Links to an external site. 
+
+https://resources.infosecinstitute.com
+
+Links to an external site. 
+
+https://labs.bitdefender.com/2012/06/flame-the-story-of-leaked-data-carried-by-human-vector/
+
+Links to an external site. 
+
+https://us-cert.cisa.gov/ncas/alerts/TA10-285A
+
+Links to an external site.
+
+https://en.wikipedia.org/wiki/Koobface
+
+Links to an external site.
+
+https://www.trendmicro.com/vinfo/id/threat-encyclopedia/malware/W97M_MELISSA.FY/
+
+Links to an external site.
+
+https://cve.mitre.org/cve/search_cve_list.html
+
+Links to an external site.
+
+https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Win32%2FOpaserv
+
+Links to an external site.
+
+https://www.tripwire.com/state-of-security/security-data-protection/over-12000-wannacry-variants-detected-in-the-wild/
+
+Links to an external site.
+
+https://resources.infosecinstitute.com/topic/duqu-2-0-the-most-sophisticated-malware-ever-seen/
+
+Links to an external site.
+
+https://support.sophos.com/support/s/article/KB-000034518?language=en_US
+
+Links to an external site.
+
+https://www.mcafee.com/enterprise/en-us/security-awareness/ransomware/what-is-stuxnet.html
+
+Links to an external site.
+
+https://www.f-secure.com/v-descs/opasoft.shtml
+
+Links to an external site.
+
+https://www.welivesecurity.com/2016/09/30/flashback-friday-sql-slammer/
+
+Links to an external site.
+
+https://www.technologyreview.com/2020/01/24/276082/lazarus-group-dragonex-chainalysis/
+
+Links to an external site.
+
+http://virus.wikidot.com/opaserv
+
+Links to an external site.
+
+https://www.cse.wustl.edu/~jain/cse571-09/ftp/worms/index.html
+
+Links to an external site.
+
+https://marc.info/?l=bugtraq&m=102760196931518&w=2
+
+Links to an external site.
+
+https://www.mcafee.com/enterprise/en-us/threat-center/duqu.html
+
+Links to an external site.
+
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/stuxnet-update/
+
+Links to an external site.
+
+https://kc.mcafee.com/corporate/index?page=content&id=KB94676&actp=null&viewlocale=en_US&showDraft=false&platinum_status=false&locale=en_US
+
+Links to an external site.
+
+https://en.wikipedia.org/wiki/SQL_Slammer
+
+Links to an external site.
+
+https://en.wikipedia.org/wiki/Duqu
+
+Links to an external site.
+
+https://en.wikipedia.org/wiki/Stuxnet
+
+Links to an external site.
+
+https://www.kaspersky.com/resource-center/threats/computer-viruses-vs-worms#:~:text=Once%20a%20worm%20has%20entered%20your%20system%2C%20usually,across%20the%20network%20or%20through%20an%20internet%20connection
+
+Links to an external site.
+
+https://en.wikipedia.org/wiki/SQL_Slammer
+
+Links to an external site.
+
+Links to an external site.https://en.wikipedia.org/wiki/SQL_Slammer
+
+    Microsoft SQL Server 2000 Unauthenticated System Compromise (#NISR25072002)' -MARC
+
+    Slammer (ncsu.edu)
+    Worm.ppt (cisco.com)
+    An Exploit In Action: The SQL Slammer Worm (giac.org)
+    Over 12,000 WannaCry Variants Detected in the Wild (tripwire.com)
+    Identifying WannaCry on Your Server Using Logs | Loggly
+    Duqu 2.0 Represents State-of-the-Art New Malware, Say Researchers
+    (securityintelligence.com)
+    Flame (malware) - Wikipedia
+    News Brief: Flame Worm - Comsec Global
+    Stuxnet - Wikipedia
+    Stuxnet - an overview | ScienceDirect Topics
+    GAOREPORTS-T-AIMD-99-146.pdf (govinfo.gov)
+    Virus Information - Melissa Virus (nortonlifelockpartner.com)
+    What Is the Koobface Virus? | Kaspersky
+    What Is the Koobface Virus? | Kaspersky
+
+ 
+
+[1] McAfee. (2018, July). McAfee Exploit Prevention Content (No. 8537).
+
+https://www.mcafee.com/enterprise/en-us/assets/release-notes/exploit-prevention/mep-07-10-2018.pdf
+
+[2] Broadcom. (n.d.). Attack: MS SQL Server 2000 Resolution Service CVE-2002-0649.
+
+Retrieved January 30, 2022, from https://www.broadcom.cn/support/security-center/attacksignatures/detail?asid=20081
+
+[3] TrendMicro. (2011, February 15). SQL Monitoring Service Registry Key Buffer Overflow.
+
+Threat Encyclopedia. Retrieved January 30, 2022, from
+
+https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/1192/sql-monitoring-service-registry-key-buffer-overflow
+
+[4] MITRE. (n.d.). CVE-2002-0649. Cve.Mitre.Org. Retrieved January 30, 2022, from
+
+https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=sqlslammer
+
+[5] Information Technology Laboratory. (2002, August 12). NVD - CVE-2002-0649 Detail. NVD.
+
+Retrieved January 30, 2022, from https://nvd.nist.gov/vuln/detail/CVE-2002-0649
+
+[6] https://ethics.csc.ncsu.edu/abuse/wvt/Slammer/study.php
+
+[7] https://www.cisco.com/web/FR/documents/pdfs/tdm/threat/sqlsw_wp.pdf
+
+[8] https://www.mandiant.com/resources/wannacry-malware-profile
+
+[9] https://nvd.nist.gov/vuln/detail/cve-2017-0143
+
+[10]
+
+https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/TROJ_ETERNALROM.A/
+
+Links to an external site.
+
+[11] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+
+[12] https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0144
+
+[13] https://www.cisa.gov/uscert/ics/advisories/ICSMA-18-058-02
+
+[14] https://www.exploit-db.com/exploits/41891
+
+[15] https://blog.malwarebytes.com/cybercrime/2017/05/how-did-wannacry-ransomworm-spread/
+
+[16] https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html
+
+[17] https://www.mcafee.com/enterprise/en-us/threat-center/duqu.html
+
+[18] https://docs.broadcom.com/doc/w32-duqu-11-en
+
+[19] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/DUQU/
+
+[20] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3402
+
+[21] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/web-attack/90/duqu-uses-stuxnetlike-techniques-to-conduct-information-theft
+
+[22] https://enigmasoftware.com/duqumalwaretruetypevulnerability-removal/
+
+[23] https://docs.microsoft.com/en-us/security-updates/SecurityAdvisories/2011/2639658?redirectedfrom=MSDN
+
+[24] https://msrc.microsoft.com/update-guide/vulnerability/ADV200006
+
+[25] https://docs.microsoft.com/en-us/security-updates/securityadvisories/2010/979682
+
+[26] https://www.radware.com/security/ddos-knowledge-center/ddospedia/duqu/
+
+[27] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_FLAMER.A/
+
+[28] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5619
+
+[29] https://www.mcafee.com/blogs/enterprise/security-operations/skywiper-fanning-the-flames-of-cyber-warfare/
+
+[30] https://www.nbcnews.com/id/wbna47619026
+
+[31] https://docs.microsoft.com/en-us/security-updates/securityadvisories/2012/2718704
+
+[32] https://www.michigan.gov/documents/deq/deq-odwma-wws-tans62attachment_405169_7.pdf
+
+[33] https://msrc.microsoft.com/update-guide/vulnerability/ADV180029
+
+[34] https://www.cnet.com/tech/services-and-software/behind-the-flame-malware-spying-on-mideast-computers-faq/
+
+[35]https://www.radware.com/security/ddos-knowledge-center/ddospedia/flame/
+
+[36] https://www.mcafee.com/enterprise/en-us/security-awareness/ransomware/what-is-stuxnet.html
+
+[37] https://docs.broadcom.com/doc/stuxnet-missing-link-13-en
+
+[38] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_STUXNET/
+
+[39] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2743
+
+[40] https://www.welivesecurity.com/2010/10/15/win32k-sys-about-the-patched-stuxnet-exploit/
+
+[41] https://www.cisa.gov/uscert/ics/advisories/ICSA-10-272-01
+
+[42] https://www.cisa.gov/uscert/ics/advisories/ICSA-10-201-01C
+
+[43] https://www.cisa.gov/uscert/ics/advisories/ICSA-10-238-01B
+
+Links to an external site.
+
+[44] https://www.sciencedirect.com/topics/computer-science/stuxnet
+
+[45] https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Worm:Win32/Opaserv.T&threatId=-2147475636
+
+[46] https://www.f-secure.com/v-descs/opasoft.shtml
+
+[47] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0979
+
+[48] https://docs.broadcom.com/doc/istr-03-jan-en
+
+[49] https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-072
+
+[50] https://attrition.org/security/advisory/nsfocus/sa2000-05.netbios_passwd
+
+[51] https://docs.microsoft.com/en-us/security-updates/SecurityAdvisories/2016/2871997?redirectedfrom=MSDN
+
+[52] http://virus.wikidot.com/opaserv
+
+[53] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/W97M_MELISSA.FY/
+
+[54] https://www.nortonlifelockpartner.com/security-center/virus-information/melissa.html
+
+[55] https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Virus%3AW97M%2FMelissa.A
+
+[56] https://www.f-secure.com/v-descs/melissa.shtml
+
+[57] https://nsarchive.gwu.edu/document/22379-document-02-general-accounting-office-gao-t-aimd
+
+[58] https://vuls.cert.org/confluence/display/historical/CERT+Advisory+CA-1999-04+Melissa+Macro+Virus
+
+[59] https://www.cisa.gov/uscert/ncas/tips/ST04-010
+
+[60] https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=worm:win32/koobface
+
+[61] https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_KOOBFACE/
+
+[62] https://jp.broadcom.com/support/security-center/attacksignatures/detail?asid=23545
+
+[63] https://www.f-secure.com/v-descs/net-worm_w32_koobface_gen.shtml
+
+[64] https://scadahacker.com/library/Documents/Threat_Intelligence/Microsoft%20-%20Security%20Intelligence%20Report%20-%20Vol%2008%202H%202009.pdf
+
+[65] https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1045
+
+[66] https://about.fb.com/news/2018/09/security-update/?ref=fbb_blog
+
+[67] https://howtofix.guide/ransomwin32-wannacrypt-h/
+
+[68] https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-073
+
+best, jason

@@ -1,0 +1,44 @@
+Module 1 - Discussion
+
+Click on Module 1's Discussion link to participate. 
+
+Answer all three (3) discussion questions below on your initial post and also respond to at least one of your fellow classmates posts. 
+Question 1
+
+A common problem in information security is the confusion between control information and data. SQL injection attacks are an example of this problem, as they involve an attacker placing control information into data. How would you design a system to defend against SQL injection attacks?
+Question 2
+
+One of the common ways to identify an attacker is to look for evidence of ignorance. In scanning, for example, we look for attackers opening communications to addresses that don’t exist. How would we look for this evidence in HTTP, or in email?
+Question 3
+
+Polymorphism is a technique used by attackers to evade detection by tweaking their payload to evade signature matching. How would you implement a polymorphic attack?
+
+ 
+
+please provide your initial post by Sunday @ 1159pm EST.  this gives enough time for your classmates to respond.
+
+Initial post and at least one substantive response to a fellow classmate are due by next Wed @ 1159pm EST.   Please cite all sources used.
+
+best, jason
+
+---
+1.
+
+A poorly designed system might blindly execute a concatenated string as a SQL query which contains user input designed to maliciously perform unintended actions on the database. There are a few main methods I've read about to avoid this like checking user input, parameterization, stored procedures, and comparing the query against valid names or falling back to defaults, but there isn't a single solution. [1] Sanitizing and validating input like using built in trimming and escaping methods on the user input might work ok to deter some attempts, but it isn't a perfect approach. Filtering can have unintended side effects leading to malformed queries or denying valid data. A parameterized query or a stored procedure helps distinguish between control information and data if the user attempts to use SQL commands in their input, but that can still be implemented incorrectly. There are also principles of security like least privileges to follow and you can also try and minimize the allowed queries with a whitelist or fall back to a default to prevent unintended access or effects. But overall the query and the possible strings and data types that can be interpreted by your code/SQL execution should be examined ahead of time and the various methods should be used as needed based on the design of your intended query and the database schema.
+
+2.
+
+An HTTP or email server receiving repeated or nonexistent requests would be a solid giveaway for an attacker probing a system. For example to pages or addresses that don't exist. There are also common admin pages like phpmyadmin and request types that attackers probe to find entry points into a system that show intent to access sensitive information. And receiving malformed or duplicate headers or in GET/POST requests there might be requests that try unusual or nonexistent patterns that stick out. The logs for the servers should be set up to report these requests and source/destination information. These can also be used in an intrusion detection/prevention system to alert or prevent these types of requests.
+
+3.
+
+Signature matching is brittle since a small change to a payload would cause large changes in a hash, or in heuristic analysis, there are many obfuscation techniques that can be used with randomness to obscure the definitions of variables and steps to execute instructions. Attackers could also use rotating servers or peer to peer lists with payloads that change which makes it difficult to block the spread and keep track of new signatures.
+
+Sources
+
+[1] https://www.slideshare.net/slideshow/sql-injection-myths-and-fallacies/3729931
+[2] https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+[3] https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+[4] https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+[5] https://portswigger.net/web-security/host-header#how-do-http-host-header-vulnerabilities-arise
+[6] https://www.sentinelone.com/blog/ursnif-polymorphic-delivery-mechanism-explained/
