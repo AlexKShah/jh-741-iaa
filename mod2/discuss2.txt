@@ -1,0 +1,30 @@
+Module 2 - Discussion
+
+Participate in the Module 2 discussion by posting an initial response to all five (5) discussion questions below.  Students need to post their initial responses and respond with a substantive/thought provoking response to at least one of their fellow classmate’s posts. Click on the "Module 2 Discussion" link above to access the discussion forum for this module.
+
+Please read the attached pdfs to answer the below questions.  The “Usage of Netflow in Security and Monitoring of Computer Networks” will help answer a large portion of the following questions. Journal can be accessed from the Readings section in this Module. Additional research is encouraged.
+Question 1
+
+NetFlow lacks payload. How will this affect our ability to detect different types of attacks? Consider scanning, spamming, DDoS and long-term infiltration. Flow- range of time, packets- specific time
+Question 2
+
+NetFlow’s major advantage over payload-bearing data is the ability to store very long term datasets, often months, where equivalent payload-bearing datasets could be stored only for days. Similarly, netflow can also store data over a larger space – entire networks where payload bearing data might only contain a dozen or so machines. What advantages does this provide? What disadvantages? 
+Question 3 
+
+How would you combine netflow with other data sources, such as system logs?
+
+Netflow profiling is an effective approach to collecting real-time data packets primarily at the routers, switches and server software to gain situational awareness and better familiarity of the network’s ports, protocols, and services running, and the types of IP traffic flows and payloads traversing.  Netflow supports the ability to develop baseline conditions and metrics on TCP/IP flows, inbound/outbound connections and normal/abnormal behaviors. 
+Question 4
+
+The author applies an approach/parameter called “unexpectedness” to gauge the amount of traffic flowing through the network.  Based on what you have read, work experience and/or additional sources researched do you believe the algorithm is effective in providing information assurance principles?  Why or why not- support your reasoning?
+Question 5
+
+What are some advantageous and disadvantages of using Netflow with open source tools to achieve information assurance/security in a network?
+
+please provide your initial post by Saturday @ 1159pm EST.  this gives enough time for your classmates to respond. 
+
+All initial and substantive response to a fellow classmate are due next Wednesday @ 1159pm EST.
+
+Please let me know if you have any questions.
+
+best, jason

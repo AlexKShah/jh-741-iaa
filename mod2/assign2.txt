@@ -1,0 +1,109 @@
+Module 2 - Assignment: SiLK Toolkit
+
+    Due Wednesday by 11:59pm Points 100 Submitting a text entry box or a file upload
+
+In this assignment you will:
+
+    Set up a SiLK collector  (or another NetFlow Tool, e.g., Wireshark)
+    Gather network traffic from your own home network
+    Analyze the resulting NetFlow
+    Submit your assignment as either pdf or doc format
+
+The assignment will be evaluated for accuracy and correctness. It is expected that you discuss any difficulties in the SiLK collector setup, include a summary of your home network traffic configuration, note any other abnormal traffic observed, and answer all the above questions.
+
+ 
+
+Please pay attention to the two "Notes" on the assignment.  As one states "Students are allowed to use Wireshark instead of SiLK, or another NetFlow collector/analyzer, after honest/due diligent efforts have been attempted with SiLK."   
+
+if you use another tool other than SiLK, please indicate which tool you used.
+
+ 
+
+Due next Wed, @ 1159pm EST
+
+ 
+
+Wireshark cheat sheet 
+
+Wireshark-Cheat-Sheet-2.pdf
+
+ 
+
+ 
+
+Video/Tutorial- "How to Troubleshoot Netflow Using Wireshark" link below
+
+How to Troubleshoot NetFlow Using Wireshark - Bing video
+
+Links to an external site.  
+
+ 
+
+Videos on using changing Wireshark to the CFLOW protocol and understanding the Filter fields
+
+https://www.bing.com/videos/riverview/relatedvideo?q=how+to+change+wireshark+to+CFLOW+protocol&mid=08FC01EA1213F63846D408FC01EA1213F63846D4&FORM=VIRE&adlt=strict
+
+Links to an external site.  
+
+https://www.bing.com/videos/riverview/relatedvideo?adlt=strict&q=how%20to%20filter%20for%20different%20CFLOW%20protocol%20in%20Wireshark%20video&mid=12FAF66D5195FDB453BF12FAF66D5195FDB453BF&ajaxhist=0
+
+Links to an external site. 
+
+SiLK Toolkit past student comments here   SILK Toolkit past student comments-2.pdf
+
+ 
+
+best, jason
+Attachments
+
+ assignment here:  Assignment 2.SiLK Toolkit assignment-4.pdf
+
+JHU Information Assurance Analysis Module 2: NETFLOW Assignment
+In this assignment you will: (PLEASE LOOK AT THE "NOTE" BELOW)
+ Set up a System for Internet Level Knowledge (SiLK) collector
+ Gather network traffic from your own home network
+ Analyze the resulting NetFlow
+ Submit your assignment as either pdf or doc format
+For this assignment you have a choice of downloading/using either the SiLK Release 3.19.1, or
+3.17.2 tool suite from http://tools.netsa.cert.org/silk/download.html and will need to use the
+installation documentation available at https://tools.netsa.cert.org/silk/silk-install-handbook.html .
+The Install Handbook is a comprehensive guide for configuring SiLK in a variety of network
+layouts. In section 4 of the Install Handbook, you will find instructions for setting up SiLK flow
+collection and analysis tools on the same machine. It is recommended that you use this
+configuration for completing this assignment. Note you will also have to download and install
+YAF http://tools.netsa.cert.org/yaf/. Once you have installed/configured, perform the following
+actions:
+1. Use the instructions from Section 8 of the SiLK Install Handbook to begin a data collection.
+2. Open your web browser and go to the following websites: (provide screenshots)
+a. http://www.cnn.com/
+b. http://www.foxnews.com/
+c. http://www.aleae.com/
+3. Open a command line terminal and do the following: (provide screenshots)
+a. Ping google.com
+b. Run a traceroute to google.com
+4. Continue collecting data for an additional 30-40 minutes before stopping your network capture.
+(e.g host on which the capture is being performed, i.e. your computer).
+5. Use rwfilter, rwuniq, and rwcut to filter your network capture to only TCP & UDP traffic to or
+from port 80 and answer the following questions.
+a. How many flow records did your computer produce when connecting to each of the
+sites in Step 2?
+b. How many IP addresses did your system connect to during your network capture?
+c. How many bytes did your computer receive for each site you visited?
+d. Was there a significant difference between the amounts of TCP &
+UDP traffic captured? If, so what might account for the variation?
+NOTE: SiLK can be frustrating for some to get installed & configured, but is a powerful tool
+to use when analyzing NetFlow traffic. If after honest/due diligent efforts you find
+yourself having minimal success or continued errors which prevents you from completing
+this assignment, you may use Wireshark instead. I posted some additional guidance
+in Module 2's "SiLK Helpful Hints and Guidance" section of CANVAS. Below are some
+additional links:
+Videos to help install YAF and SiLK on Ubuntu VM:
+https://www.youtube.com/watch?
+v=5fLhb6EHvyw&list=PLSNlEg26NNpyBCKGeWaYWyuZPGfkaPWAM&index=1
+Additional reference for SiLK & YAF:
+https://tools.netsa.cert.org/silk/silk-on-box-deb.html
+https://tools.netsa.cert.org/silk/docs.html
+https://tools.netsa.cert.org/index.html
+It is expected that you discuss any difficulties in the SiLK collector setup, include a summary
+of your home network traffic configuration, note any other abnormal traffic observed, and answer
+all the above questions. NOTE: provide screen shots for questions 2, 3, & 5a,b,c,d.
