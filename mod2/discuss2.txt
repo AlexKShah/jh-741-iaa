@@ -1,32 +1,31 @@
 Question 1
 
-NetFlow lacks payload. How will this affect our ability to detect different types of attacks? Consider scanning, spamming, DDoS and long-term infiltration. Flow- range of time, packets- specific time
-
-Without payload and header information, Netflow provides a summary rather than specifics containing source and destination IP, port, and other information about the connection that can still be useful in determining whether attacks are happening. For scanning, spamming, and DDoS attacks the number of connections, how long the sessions last, and how the connections are being made (port, flags) can be used to reliably detect an attack. In long term infiltration like data exfiltration it would still be suspicious to see large transfers to unknown IP addresses even if we can't see the payload that the transfers are carrying. So overall the lack of payload doesn't prevent attack detection for major types of malicious traffic. Raw packet capture can be more reliable to detect malicious payloads, but that doesn't need to be kept long term for analysis, where Netflow has significant size and compute advantages.
+Without payload and header information, Netflow provides a summary rather than specifics but still contains useful information for detecting attacks like source and destination IP, port, and other details about the connection rather than what is in it. For scanning, spamming, and DDoS attacks, the number of connections, how long the sessions last, and how the connections are being made (port, flags) can be used to identify the patterns that indicate these threats, which can be compared to packet data at the router in order to detect and confirm these attacks. In long term infiltration like data exfiltration there are suspicious patterns such as large transfers to unknown IP addresses that are detectable even if we can't see the payloads directly. But further analysis would be required to confirm the malicious activity. So overall the lack of payload information doesn't prevent attack detection for major types of malicious traffic. 
 
 ---
 Question 2
 
-NetFlow’s major advantage over payload-bearing data is the ability to store very long term datasets, often months, where equivalent payload-bearing datasets could be stored only for days. Similarly, netflow can also store data over a larger space – entire networks where payload bearing data might only contain a dozen or so machines. What advantages does this provide? What disadvantages? 
-
-Processing large amounts of raw packet data is time and compute intensive which can be a limiting factor in detecting attacks. A large packet capture can be megabytes to gigbytes compared to flows which can be bytes for the same time range and cover the whole network. The ability to quickly process this information can help security analysis and gain broader insights into the traffic flows across the entire network and over long periods of time. In analyzing packet capture, long term and large scale insights could be lost due to the inability to process them effectively. The payloads in each packet are lost which may make some traffic ambiguous. For example you might see a large amount of data being sent over many sessions, but not what data is being sent and whether it is legitimate or malicious. However flows retain many crucial factors to the sessions and connections that can still be used effectively for security like establishing context but not the content.
+Processing large amounts of raw packet data is time and compute intensive which can be a limiting factor in detecting attacks. A large packet capture can be megabytes to gigabytes compared to flows which can be bytes for the same time range, because it contains only metadata which can be a significant drawback compared to the detail that packet capture retains. However flows have scope and scale advantages to be able to store information about the whole network for long periods of time to analyze patterns and trends. Quickly processing this information can help make faster security decisions and gain broader insights. However the payloads in each packet are lost which may make some traffic ambiguous. For example you might see a large amount of data being sent over many sessions, but not what data is being sent and without the ability to determine if it is legitimate or malicious. Still, flows retain many crucial factors to the sessions and connections that can be used effectively for security like establishing context if not the content.
 
 ---
 Question 3 
 
-How would you combine netflow with other data sources, such as system logs?
-
-Netflow profiling is an effective approach to collecting real-time data packets primarily at the routers, switches and server software to gain situational awareness and better familiarity of the network’s ports, protocols, and services running, and the types of IP traffic flows and payloads traversing.  Netflow supports the ability to develop baseline conditions and metrics on TCP/IP flows, inbound/outbound connections and normal/abnormal behaviors. 
-
+By using flows we can determine when and where attacks might be happening and then look directly at logs for errors, events, and behaviors to confirm our suspicions of malicious activity such as failed login attempts. This approach retains the benefits of using summaries that flows provide efficiently while having access to the specifics as needed. Using flows over a long period of time with profiling could help establish a baseline for activity that is seen as normal, where anomalous values and patterns could raise suspicions and point to where security events may need to be examined in more detail with logs and further investigation.
 
 ---
 Question 4
 
-The author applies an approach/parameter called “unexpectedness” to gauge the amount of traffic flowing through the network.  Based on what you have read, work experience and/or additional sources researched do you believe the algorithm is effective in providing information assurance principles?  Why or why not- support your reasoning?
-
+This threshold based approach with fixed parameters could be effective by carefully defining typical traffic for the network, as well as with ongoing tuning to avoid false positives and negatives as the network and its activity can change over time as well as the types of attacks the network is subjected to. It is not uncommon in IPS to use detection thresholds, and these unexpectedness values could work to raise red flags on anomalies but this approach would still require ongoing supervision to detect evolving or novel attacks. For example there could be attacks that resemble legitimate traffic that don't meet the unexpectedness threshold.
 
 ---
 Question 5
 
-What are some advantageous and disadvantages of using Netflow with open source tools to achieve information assurance/security in a network?
+Netflow data is small and fast to work with using tools to filter and analyze flow data. However some open source tools such as rwfilter and rwcut in SILK tools can be cumbersome and requires use of the CLI or scripting compared to more business friendly tools that can be quicker to set up and start using, and provide easier interaction and visualization of the data. Netflow's drawbacks such as the lack of payload and content can be supplemented with other tools to offset the lack of depth. However this would require manual integration when using open source tools as well as setting up data pipelines, understanding the tools, and achieving effectiveness with them on the particular network by iterating which takes time. From my experience, many businesses would rather pay for fast start up and established processes that mostly work now than to pursue it themselves and spend on the ramp up even if open source can be more flexible and "free".
 
+Sources
+
+Module 2 Lectures
+
+Choudhary, S & Srinivasan, B. (2013). Usage of NetFlow in security and monitoring of computer networks.
+
+Gates, C & Collins, M. (2004). More Netflow Tools: For Performance and Security.
