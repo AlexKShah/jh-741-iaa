@@ -85,7 +85,7 @@ Convergence, Design, Size of the network, Function, Algorithm, Protocol, Type, e
 9. Explain what CIDR Classful and Classless addresses are & when you would use both?
 Note: amazon link below will help
 Note: some helpful websites to aid in completing this assignment:
-https://www.ultratools.com/tools/asnInfoResult?
-domainName=AS14907 https://www.ipaddressguide.com/cidr
+https://www.ultratools.com/tools/asnInfoResult?domainName=AS14907 
+https://www.ipaddressguide.com/cidr
 ASN WHOIS lookup; https://dnschecker.org/asn-whois-lookup.php
 https://aws.amazon.com/what-is/cidr/
