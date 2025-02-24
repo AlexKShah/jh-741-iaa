@@ -1,0 +1,176 @@
+
+Data anonymization is the process of modifying sensitive data to adhere to privacy laws while enabling its utilization in software testing and analytics.
+
+ 
+
+Get Gartner Report
+The Right to Remain Anonymous
+
+Our data is being collected, stored, and used all the time.
+
+What we do, where we work, how we entertain ourselves, where we shop, what we buy, how much money we make, and how we spend it, which doctors we see, what medications we take, where we go on vacation, which car we drive – the list is endless.
+
+We’ve witnessed social media companies selling our information to the highest bidder, and then being prosecuted for it. We’re harassed by ads on a daily basis, only because we searched for a particular term. No wonder the world is taking action.
+
+Thanks to data privacy legislation, led by Europe’s GDPR, and California’s CPRA, the consumer has been given a voice and with it, the right to be anonymous. So when an organization does use my data (as it inevitably will), it can never be traced back to me.
+
+This is the essence of data anonymization.
+
+Data anonymization is an umbrella category that includes data masking, pseudonymization, data aggregation, data randomization, data generalization, and data swapping.
+
+This guide delves into each one of these data anonymization techniques, and then discusses the pros and cons of the anonymization process, the challenges it faces, and directions for future research. 
+
+It concludes by revealing an innovative approach for ensuring personal privacy, compliance with regulations, customer trust, and the right to remain anonymous.
+What is Data Anonymization?
+
+Data anonymization is the process of obscuring or removing personally identifiable information (PII) from a dataset in order to protect the privacy of the people associated with that data. 
+
+The anonymization of data makes it impossible to recognize individuals from their data, while keeping the information functional for software testing, data analysis, or other legitimate purposes.
+
+Data anonymization transforms PII and sensitive data in such a way that it can’t easily be linked to aspecific individual. In other words, it reduces the risk of re-identification, in order to comply with data privacy laws and heighten security.
+
+The anonymization process typically involves data masking of PII data, such as names, addresses, telephone numbers, passport details, or Social Security Numbers. Towards this end, values are replaced or removed, by using cryptographic techniques, or adding random noise, in order to protect the data.
+
+Anonymized data can’t guarantee complete anonymity, with the threat of re-identification, particularly when the anonymized data is combined with publicly available sources. Therefore, data teams must carefully consider the risks and limitations of their data anonymization tools and processes when working with personal or sensitive data.
+The Role Data Anonymization Plays in Protecting Personal Privacy
+
+Data anonymization play a critical role in protecting personal privacy by preventing the exposure, and exploitation, of people’s sensitive information.
+
+With the ever-increasing amounts of data being collected and stored, the risk that personal information could be accessed and misused – without someone’s knowledge or consent – is greater than ever.
+
+When personal information is violated, not only is it a breach of security for the organization, but, more importantly, a breach of trust for the customer or consumer. Such attacks can lead to wide-ranging privacy violations, including breach of contract, discrimination, and identity theft.
+
+By hiding or deleting the PII from datasets, data anonymization severely limits the ability of unauthorized users to access, or use, personal information. In addition to preventing privacy breaches, and protecting the rights of the individual, data anonymization enables organizations to comply with data privacy regulations – like APPI, CPRA, DCIA, GDPR, HIPAA, PDP, SOX, and more – which require companies to take preventative measures to protect an individual's confidential data. 
+
+Just as important, even after data is anonymized, it can still be used for analysis purposes, business insights, decision-making, and research – without ever revealing anyone’s personal information. 
+The Market Need for Data Anonymization
+
+The main driver for data anonymization is the increasing amount of data being collected and stored by organizations, and the corresponding need to protect the privacy of the people associated with that data.
+
+With the exponential growth of the data economy, enterprises are amassing more personal data than ever, from a wide variety of sources including e-commerce, government and healthcare sources, as well as social media. This treasure trove of information can be used for many different purposes. 
+
+Just as the data economy continues to grow, so does the commensurate need for data privacy compliance. With increased public scrutiny of data privacy, combined with the demand for better ways to protect personal information, data anonymization has become widely accepted. At the same time, it permits the data to be used for legitimate purposes. 
+
+Plus, as AI and machine learning technologies continue to emerge, massive quantities of data are needed to train models, and then share them between different business domains. Data anonymization addresses the privacy concerns associated with data sharing by making it practically impossible to re-identify individual information from the datasets. 
+
+Finally, as data protection regulations become more widespread, and more stringent, companies must take appropriate action to protect their constituents’ personal data. Data anonymization answers that need. 
+Types of Data Anonymization
+
+There are 6 basic types of data anonymization, including:
+1. Data masking
+
+Data masking software replaces sensitive data, such as credit card numbers, driver’s license numbers, and Social Security Numbers, with either meaningless characters, digits, or symbols – or seemingly realistic, but fictitious, masked data. Masking test data makes it available for development or testing purposes, without compromising the privacy of the original information.
+
+Data masking can be applied to a specific field, or to entire datasets, using a variety of techniques such as character substitution, data shuffling, and truncation. Data can be masked on demand or according to a schedule. The data masking suite includes data tokenization, which irreversibly substitutes personal data with random placeholders, and synthetic data generation, when the amount of production data is insufficient.
+2. Pseudonymization
+
+Pseudonymization anonymizes data by replacing any identifying information with a pseudonymous identifier, or pseudonym. Personal information that is commonly replaced includes names, addresses, and Social Security Numbers.
+
+Pseudonymized data reduces the risk of PII exposure or misuse, while still allowing the dataset to be used for legitimate purposes. In the pseudonymization vs anonymization equation, the former is reversible (unlike data tokenization solutions), and is often used in combination with other privacy-enhancing technologies, such as data masking vs encryption.
+3. Data aggregation
+
+Data aggregation, which combines data collected from many different sources into a single view, is used to gain insights for enhanced decision-making, or analysis of trends and patterns. Data can be aggregated at different levels of granularity, from simple summaries to complex calculations, and can be done on categorical data, numerical data, and text data.
+
+Aggregated data can be presented in various forms, and used for a variety of purposes, including analysis, reporting, and visualization. It can also be done on data that has been pseudonymized, or masked, to further protect individual privacy.
+4. Random data generation
+
+Random data generation, which randomly shuffles data in order to obscure sensitive information, can be applied to an entire dataset, or to specific fields or columns in a database. Often used together with data masking tools or data tokenization tools, random data generation is ideal for clinical trials, to ensure that the subjects are not only randomly chosen, but also randomly assigned to different treatment groups. By combining different types of data anonymization, bias is reduced, while the validity of the results is increased.
+5. Data generalization
+
+Data generalization, which replaces specific data values with more generalized values, is used to conceal PII, such as addresses or ages, from unauthorized parties. It substitutes categories, ranges, or geographic areas for specific values. For example, a specific address, like 1705 Fifth Avenue, can be generalized to downtown, midtown or uptown. Similarly, the age 55 can be generalized to an age group called 50-60, or middle-aged adults.
+6. Data swapping
+
+Data swapping replaces real data values with fictitious, but similar, ones. For instance, a real name, like Don Johnson, can be swapped with a fictitious one, like Robbie Simons. Or a real address, like 186 South Street, can be swapped with a fictitious one, like 15 Parkside Lane. Data swapping is similar to the random data generator, but rather than shuffling the data, it replaces the original values with new, fictitious ones.
+GARTNER® MARKET RESEARCH
+Data Anonymization:
+Protecting Sensitive Data
+
+Learn when it's best to employ data anonymization tools and when synthetic data generation is the optimal choice.
+Get Gartner Report
+data masking gartner @150x-8-1
+Data Anonymization: Pros and Cons
+
+Below is a summary of the pros and cons of data anonymization:
+Pros 	Cons
+Makes the identification of a person in a dataset impossible, or highly unlikely 	May reduce data utility by modifying or removing important PII elements
+Permits data sharing for legitimate purposes, such as analysis and research 	May allow for reidentification, if an attacker is able to cross-reference additional data
+Enables quicker and easier compliance with data privacy laws 	May require expertise, and specialized tools, adding to complexity and cost
+Blocks attackers from gaining access to sensitive information 	May not provide full data privacy protection (if reidentification succeeds)
+Minimizes the risk of errors, such as incorrect linkage of data 	May not work on data that’s very sensitive, or that has unique properties
+Reduces costs, with consent-free data reuse and no need for secure storage 	May be time-consuming, resource-intensive, and not very scalable
+Data Anonymization Use Cases
+
+Here's a list of data anonymization use cases, broken down by industry sector:
+Healthcare
+
+The healthcare industry uses data anonymization to protect the privacy of patients, while permitting their data to be used for legitimate purposes such as analysis, reporting, and research. In healthcare, data anonymization is used to secure medical histories, personal information, and treatment details.
+
+For example, data anonymization might be used for studies evaluating the efficacy of certain drug treatments, or to identify trends in disease outbreaks, without exposing patient PHI (Protected Health Information). It’s also used to comply with data privacy laws, such as the Health Insurance Portability and Accountability Act (HIPAA).
+Financial Services
+
+Financial services companies, such as banks, brokerages, and insurance companies, employ data anonymization to protect sensitive information such as financial histories, PII, and transaction information. Financial institutions can share and use anonymized data for research, analysis, and reporting, without compromising client privacy.
+
+For instance, data anonymization is used to identify fraud patterns, or to test the effectiveness of marketing campaigns, without exposing any identifiable information. It’s also used to comply with data privacy laws, such as PCE DSS, which protects payment details, the US Securities and Exchange Commission (SEC), and the Financial Industry Regulatory Authority (FINRA), which require financial institutions to secure the personal and sensitive information of their clients.
+Telecommunications
+
+Telco and media companies use data anonymization to protect sensitive information, such as call/message logs, location details, and PII. They share and use anonymized data for reporting, research, and analysis, without the fear of compromising customer privacy.
+
+For example, data anonymization can be used to enhance network performance, gauge the effectiveness of marketing campaigns, or identify usage patterns – without exposing any identifiable data. It's also used to comply with data protection regulations, such as the US Federal Communications Commission (FCC) whose privacy rules protect broadband consumers by granting them choice, transparency and security for their personal data.
+Government
+
+Local and national governments employ data anonymization to protect sensitive data, such as citizen information, voting records, and tax records. They anonymize data for analysis, research, and reporting, with no risk to the privacy of their citizens.
+
+For instance, data anonymization can be used to conduct population-based studies, to measure the effectiveness of public policies, or to understand trends in crime or poverty – without exposing citizen-identifiable information. It's also used to comply with data protection regulations, such as the General Data Protection Regulation (GDPR), and the California Privacy Rights Act (CPRA), which require government agencies to protect the personal and sensitive information of their citizens. 
+Data Anonymization Challenges
+
+The 4 main challenges to data anonymization are:
+1. Preempting re-identification 
+
+Despite all the efforts expended on data de-identification, the risk of linking anonymized data to a single person always exists.
+
+One of the main ways to determine the identity of specific individuals is through a linkage attack, which cross-references anonymized data with publicly available records. A linkage attack could be carried out by combining anonymized bank information with data from a voter registration database.
+
+Another way to re-identify individuals is via an inference attack, which uses their attributes, such as age and gender, to infer their identity. One example of an inference attack is to cross-reference location, and browsing histories, to infer their identity.
+
+There have been several advancements in the re-identification of anonymized data over the years. Today, machine learning models can be used to analyze patterns found in anonymized datasets. Advanced data mining and data linkage methods make it easier to combine multiple datasets to perform re-identification.
+2. Striking the right balance between privacy and utility
+
+Balancing privacy and utility is a major challenge for those involved in data anonymization. A risk-based approach helps ensure that the level of anonymization is directly proportional to the level of risk associated with the data.
+
+For example, data containing medical records probably requires a higher level of anonymization than data containing demographic information. Other approaches include differential privacy, as described above, or the use of AI/ML-based generative models (like GANs).
+3. Developing international standards and regulations
+
+As data becomes more and more important to businesses and researchers, the need for consistent and effective governance of data anonymization has become acute. A number of different data anonymization standards and regulations currently exist, each with its own strengths and weaknesses.
+
+For example, while GDPR provides strong protection for personal data, it makes data sharing (for business and research purposes) quite difficult. One potential solution is to develop a single standard for data anonymization that protects personal data while also accommodating different data types, legal requirements, and use cases.
+4. Integrating with AI and ML models
+
+The integration of Artificial Intelligence (AI) and Machine Learning (ML) is a key challenge in data anonymization. The most obvious approach is to incorporate AI/ML in the data anonymization process, with methods like AI-powered PII discovery and Generative Adversarial Networks (GANs) which generate fake data that preserves the statistical properties of the original information while removing PII.
+
+A possible future direction is to use AI/ML for data de-anonymization, including methods for reidentification and linkage. Since data de-anonymization is a real threat to data privacy, AI/ML can help identifying and fix any vulnerabilities in the process.
+Future Research in Data Anonymization
+
+Future research in data anonymization might focus on:
+
+    Developing more secure and robust methods, such as homomorphic encryption, which allows sensitive data to be processed without exposing it in plaintext
+    Improving efficiency and scalability, particularly for large datasets
+    Integrating AI/ML using generative models and clustering-based techniques, which group similar records together in a dataset, and then apply privacy protection methods to the aggregated data in each cluster
+    Optimizing the privacy vs utility ratio
+    Investigating blockchain technology, which provides a decentralized, tamper-proof transaction ledger, for secure data sharing
+    Collaborating across different domains, without sharing any raw data in a federating learning approach
+    Examining differential privacy in terms of time-series data with temporal dependencies
+
+Data Anonymization by Business Entities
+
+With entity-based data masking technology, data teams can anonymize data more quickly and efficiently. It integrates and organizes fragmented data from multiple source systems according to data schemas – where each schema corresponds to a business entity (such as a customer, vendor, or order). 
+
+The solution anonymizes data based on an single business entity, and manages it in its own, encrypted Micro-Database™, which is either stored, or cached in memory. This approach to data anonymization ensures both referential integrity and semantic consistency of the anonymized data. 
+
+Data anonymization companies that offer test data management tools together with data masking software and data tokenization software – using the same platform and the same implementation – reduce time to value and total cost of ownership.
+Summary
+
+Data privacy regulations are driving enterprises to anonymize the data of their important business entities (customer, suppliers, orders, invoices, etc.).
+
+This paper covered the definitions of, and need for, data anonymization, listing its types, techniques, applications, challenges, and future research in the field.
+
+It concluded by presenting a business entity approach to data anonymization, delivering unprecedented performance, scalability and cost-effectiveness. 
