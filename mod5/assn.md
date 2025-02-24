@@ -4,9 +4,7 @@
 
 Anonymity is a very hotly debated topic on the internet, and is the subject of active research and political activism. At the same time, it’s debatable how much anonymity is actually achievable – either passively or actively.
 
-For this assignment, start by visiting the site spokeo.com
-
-Links to an external site. and searching for yourself. Once you’ve done so, answer the following questions:
+For this assignment, start by visiting the site spokeo.com and searching for yourself. Once you’ve done so, answer the following questions:
 
     There are tradeoffs against anonymity and identifiability, discuss what some of those are?
    
