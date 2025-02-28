@@ -1,0 +1,126 @@
+ The Need for Privacy Policies in Mobile Apps – An Overview
+According to a study made in June of 2012 only a 48% of all free apps and a 32% of paid apps across App Stores (Apple, Android, Kindle) offered in-app access to a privacy policy. That is a surprisingly low number given that there’s enough reasons to include one. Most major countries and their privacy laws require you to include a privacy policy, but read on.
+App Store Privacy Policy
+
+The Attorney General of California made it clear that its Online Privacy Protection Act would be enforced on apps (CalOPPA). To make sure these laws were actually being followed California’s Department of Justice set up a Privacy Enforcement and Protection Unit in July of 2012. This may sound like it’s only valid for developers based in California, but it’s actually a call for compliance for anyone possibly targeting Californians.
+
+Path, Delta and others have been charged or fined because of non-compliance with privacy laws. The FTC and AG of California published guidelines on things to consider when developing mobile applications.
+
+The simple fact is this: there’s really just a small number of apps that are not legally bound to include a privacy policy. Let’s take a look.
+When Do I Need a Privacy Policy in my Mobile App?
+
+The simple first question you have to ask yourself is: do I/does my app collect/store/share personal data?
+
+Personal data can be a lot of things: a first and last name, an email address, a telephone number, location data and many more like analytics or ads (examples for personally identifiable information according to AG of California).
+
+If you collect any of this data, you need a privacy policy.
+Privacy Laws
+
+If so you may already be under the obligation to include a privacy policy: according to the California AG’s interpretation of CalOPPA, applications that collect personal user data must conspicuously post a privacy policy detailing, clearly and completely, how the application collects, uses, and shares personal data. This rule applies globally to any mobile application that may impact a California consumer. Therefore, if your application possibly provides value to a California resident you are already bound to these rules. App developers that do not comply with CalOPPA by posting a privacy policy for their app can be held accountable under California law.
+
+Last year AG Harris and the six leading mobile application platform providers agreed to bring the mobile application industry into compliance with the terms of CalOPPA following this two-page Joint Statement of Principles. More, dedicated State laws are very likely to be coming up soon.
+
+Let’s assume you have an app that is geared towards European users. The picture doesn’t change. The relevant EU legal framework is the Data Protection Directive (95/46/EC). It applies in any case where the use of apps on smart devices involves processing personal data of individuals. Basically whenever your app is used in the EU, even if you are not residing there (the national law of a Member State is also applicable in cases where the controller is not established on Community territory and makes use of equipment situated on the territory of that Member State. Since the device is instrumental in the processing of personal data from and about the user, this criterion is usually fulfilled), you need to ensure compliance with all the requirements defined under the Data Protection Directive.
+
+The ePrivacy directive (2002/58/EC, as revised by 2009/136/EC) sets a specific standard for all parties worldwide that wish to store or access information stored in the devices of users in the European Economic Area. Many provisions of the ePrivacy directive may not directly apply to you as a developer, but the most important one in regards to developing for mobile platforms is article 5(3) stating that the storing of information, or the gaining of access to information already stored, in the terminal equipment of a subscriber or user is only allowed on condition that the subscriber or user concerned has given his or her consent, having been provided with clear and comprehensive information, in accordance with Directive 95/46/EC, among other things about the purposes of the processing.
+
+It is important for app developers to know that both directives are imperative laws in that the individual’s rights are non-transferable and not subject to contractual waiver. This means that the applicability of European privacy law cannot be excluded by a unilateral declaration or contractual agreement.
+
+Therefore you must:
+
+Provide a readable, understandable and easily accessible privacy policy, which at a minimum informs users about:
+
+    who you are (identity and contact details),
+    what precise categories of personal data the app wants to collect and process,
+    why the data processing is necessary (for what precise purposes),
+    whether data will be disclosed to third parties (not just a generic but a specific description to whom the data will be disclosed),
+    what rights users have, in terms of withdrawal of consent and deletion of data.
+
+According to European laws if your app services European citizens. This document by the Article 29 working party provides interesting insights.
+
+Similar laws exist for most major legislations with slight modifications that might apply to your unique situation. Here’s a link to Australia’s Information Commissioner and docs.
+Third Party Services/App Stores
+
+There are other things to consider than pure legislation-skimming. Here are two more for you:
+
+a) Since most third party services you end up using in your app like mobile analytics or ad networks also need to follow the law, they may require you to use a privacy policy within their terms of service. An example is Google Adsense.
+
+b) Since the aforementioned agreement the big 6 app stores are actively improving the privacy policy situation for consumers and are starting to have privacy policies as a requirement in the app approval flow. Here’s an excerpt from an Amazon developer email from last week:
+
+    Customer privacy is important to us, and we know it is important to many of you too. That’s why we want to make sure you know how to include links to your privacy policy on product detail pages for your apps. We require all apps that collect personally identifiable information or personal information to provide a link to their privacy policy, so if you haven’t already done so, please take a moment to submit the privacy policy link for each of your apps today.
+
+So much for a simplified look at why you must have a privacy policy in your app.
+What Could Possibly Happen if I Don’t Include One?
+
+Most developers don’t include a privacy policy because they think it’s a) too complicated and time-consuming and b) that no one is really enforcing those laws anyways.
+
+Luckily a) isn’t true anymore. iubenda’s editor makes it very easy to make compliant privacy policies for mobile apps quickly.
+
+For b) most of you will know about Path’s costly $800,000 settlement as well as Delta’s case in court that has them at risk of paying a $2500 fine for every app download (the case has been dismissed recently, but surely is not going to rest there). Similar not well known cases are out there as well.
+
+Rest assured that in the wake of PRISM and the growth of the mobile ecosystem all of the above will be more and more important and not the other way around. Be clever and play by the rules.
+
+Privacy Policy in App Stores
+
+While this post covers some of the reasons and legal grounds for the privacy policies in mobile apps, it doesn’t say much about the situation across the app stores. That’s why we’ve compiled two guides regarding that:
+
+    Privacy Policy for iOS and macOS Apps
+    Privacy Policy for Android Apps
+
+Hopefully these resources will be helpful on the way to your perfect app store listing.
+
+---
+
+Who Must Comply – GDPR EU
+
+Table of Contents
+Who Must Comply – GDPR EU?
+Increased Territorial Scope
+
+The territorial scope of the GDPR has increased relative to its predecessor. The scope is covered by Article 3 of the legislation;
+
+        This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not.
+        This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to:
+            (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or
+            (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.
+        This Regulation applies to the processing of personal data by a controller not established in the Union, but in a place where Member State law applies by virtue of public international law.
+
+Naturally as you would expect the legislation applies to entities who have a location within the EU.
+
+Where this legislation diverges is that it also encompasses entities who are offering goods or services to anyone residing in the EU, even if those services are provided free of cost.
+
+So any global business either has to become compliant for all of its users/customers or be able to accurately identify EU residents and enable compliant systems to handle only that subset of the customer base.
+
+Building and maintaining two separate information systems is no practical or cost effective, and the downside risk of making a mistake is too large to make it acceptable. It has therefore become normal practice for businesses to apply GDPR compliant information systems to all users, regardless of location.
+
+To remove ambiguity, Recital 23 clarifies this position further;
+
+    Whereas the mere accessibility of the controller’s, processor’s or an intermediary’s website in the Union, of an email address or of other contact details, or the use of a language generally used in the third country where the controller is established, is insufficient to ascertain such intention, factors such as the use of a language or a currency generally used in one or more Member States with the possibility of ordering goods and services in that other language, or the mentioning of customers or users who are in the Union, may make it apparent that the controller envisages offering goods or services to data subjects in the Union.
+
+A non-exhaustive list to help establish whether or not a firm falls under the scope of GDPR;
+
+    The entity website can be accessed by EU residents
+    The entity’s email or ontact details can be accessed by EU residents
+    The entity is located in a non-EU state with a principle language which is the same as an EU state
+    The entity markets goods or services in the principle language used by an EU member state
+    The entity lists prices in EU member currency (Euro, £, Swiss Franc, Kronor)
+    The entity cites EU customers
+
+This allows firms to establish they do not fall under the scope of GDPR by blocking their wesbite from EU IP addresses and rejecting email from EU mailservers.
+
+The language aspect is more of an arguable point. English is the main language of the UK and Spanish the principal language of Spain, but English and Spanish are two of the three most spoken lanaguages in the world, and not the preserve of the EU.
+
+General consensus (which will be put the test in case law) is that use of English or Spanish is unlikely, on its own, to constitute an attempt to market to spcifically to EU residents, whilst marketing in Dutch, Danish or Flemish would.
+Exemptions and Derogations
+
+While the GDPR has broad implications for commerce, it nonetheless exempts certain entities or activities from compliance. Below is a non-exhaustive review of key exemptions.
+
+There are exemptions for certain activities. Personal or household activity is the main one covered by article 2(c);
+
+    “by a natural person in the course of a purely personal or household activity”.
+
+Grandfathering of previously collected data
+
+The legislation does not allow for grandfathering of previously collected data, unless that data was collected under conditions which would now pass GDPR compliance tests.
+
+Data controllers have the chouce of either attempting to obtain retrospecitve consent from the data subjects or stop processing that subject’s data.
