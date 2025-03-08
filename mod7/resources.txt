@@ -1,0 +1,547 @@
+Data Quality Is Also An AI Problem
+Forbes Communications Council
+
+ByEmanuel Younanzadeh
+
+, Former Forbes Councils Member.
+for Forbes Communications CouncilCOUNCIL POST | Membership (fee-based)
+Nov 03, 2022, 07:15am EDT
+
+Emanuel Younanzadeh is VP Marketing at The Modern Data Company.
+Downtown chicago cityscape technology theme
+
+getty
+
+Artificial intelligence (AI) continues its rise to prominence within the business world. The number of companies using AI today and the range of problems AI is being applied to are both increasing steadily. However, there is one issue that is plaguing AI just as much as it has plagued analytics of all kinds over the years—data quality.
+
+Data Quality Is A Familiar Nemesis
+
+Organizations put tremendous resources behind ensuring the quality of their data. This is necessary due to the broad range of ways that data quality can be compromised. Users might input data incorrectly, a system setting might lead to an incorrect code being assigned to certain actions, or a typo might end up in a script developed to facilitate data transformation. These are among the many potential sources of poor data quality.
+PROMOTED
+
+The reality is that the data quality issue will never be "solved" no matter how much an organization budgets or how sincere its intentions may be. This is because the business environment—and the systems supporting it—is always in flux. New quality issues can arise at any time from any number of directions, including immediately after we certify that the data is pristine at a given point in time.
+
+AI Doesn't Escape Data Quality Issues
+
+As organizations delve into AI, data quality will be as big of an issue as ever. This is because any AI processes that use traditional data sources will be just as dependent on those sources being of high quality as any other analytic processes. However, AI is also making use of a wide range of new data sources and data types. The methods of the past that are typically borrowed for a new data source fall apart when entering the realm of new data types used by AI.
+
+Data such as images, text and videos have not been used to any significant degree in the past using non-AI methodologies. The data quality issues with these data types are also different than those of the past. Let's take the example of images and consider a few ways that different data quality issues come into play.
+
+• Data quality for model building. On the input side, images are often "tagged" to facilitate building a model. For example, a picture will be tagged as "containing a cat" or not, "containing a hot dog" or not, etc. Humans do this tagging, and humans can make errors. How do we find those errors and correct them? It can be easy to automate flagging that a price is clearly too low, an invoice is too high or an age can't be true. With image tagging, it is very difficult to find an error without having a second person look for it and correct it. Detecting tagging errors mathematically is incredibly difficult, if not impossible, today.
+
+• Data quality for model scoring. Assuming there is a good model to identify hot dogs or cats, then new images can be passed to the model to determine if the pictures contain a hot dog or a cat. However, how do we identify if a picture is too blurry to tell as opposed to being a clean picture that simply doesn't have the objects of interest? It isn't an easy task to identify which pictures are "clean enough" for valid analysis. The answer can also vary based on the sophistication of the model being used.
+
+The point here is that standard data quality methods such as outlier detection, missing value imputation and invalid value correction simply don't apply to images, text and audio data. These data types have unique characteristics and unique usages compared to traditional structured data and, therefore, require some serious attention in terms of how to assess and enforce data quality.
+
+Addressing AI's Data Quality Challenges
+
+The analysis of many new types of data such as images is still new enough that nobody has it all figured out, so you'll need to do some research and experimentation. The first step is to task your data quality team to research what others have published with respect to data quality and AI. There are approaches to data quality described in academic journals—as well as industry publications—to explore, learn from and then implement.
+
+The next step is to implement the best data quality procedures you can today; however, plan to update those capabilities as advances in addressing data quality for AI are made. Consider making use of a services-based approach to make the incorporation of a new data quality check simple. For example, have a current process simply pass each new image to an additional image screening routine once it becomes available. With this approach, you can build a foundation for AI data quality one piece at a time.
+
+On an ongoing basis, have your AI team spend extra time monitoring the performance of the AI models they've deployed to look for patterns related to misclassifications and errors. Once identified, the team can create new data quality checks to address them. For example, if it is found that images with a blue background have a much higher error rate, then work to tune the algorithms to better handle blue backgrounds.
+
+Just like with other data types and methods, data quality will be an ever-present concern for AI processes and the data that feeds them. However, that is no reason to hold off pursuing AI today. Recognize the challenge that data quality will pose, take the actions described here, and anticipate that whatever you implement will only get better over time as your data quality processes mature.
+
+Responsible AI: A framework for building trust
+Vukani Mngxati
+Vukani Mngxati
+Vukani Mngxati
+Chief Executive Officer & Board Chairman - Accenture in Africa | Driving Growth & Total Enterprise Reinvention across Public and Private sectors | Passionate about Health, Education & Skills Development
+Published Aug 18, 2020
++ Follow
+
+Artificial intelligence (AI) is maturing rapidly as an incredibly powerful technology with seemingly limitless application. It has demonstrated its ability to automate routine tasks – such as our daily commute – while also augmenting human capacity with new insight. Combining human creativity and ingenuity with the scalability of machine learning is advancing our knowledge base and understanding at a remarkable pace. However, with great power comes great responsibility.
+
+Specifically, AI raises concerns on many fronts due to its potentially disruptive impact. These fears include workforce displacement, loss of privacy, potential biases in decision-making and lack of control over automated systems and robots. While these issues are significant, they are also addressable with what we call “responsible AI” – a framework with the right planning, oversight, and governance. 
+
+Responsible AI brings many of these critical practices together. It focuses on ensuring the ethical, transparent and accountable use of AI technologies in a manner consistent with user expectations, organisational values and societal laws and norms.
+
+Responsible AI can guard against the use of biased data or algorithms, ensure that automated decisions are justified and explainable, and help maintain user trust and individual privacy. By providing clear rules of engagement, responsible AI allows organisations to innovate and realise the transformative potential of AI that is both compelling and accountable. 
+
+Accountability means creating governance frameworks to evaluate, deploy and monitor AI to create new opportunities for better citizen and mission services. It means architecting and implementing solutions that put people at the centre. By using design-led thinking, organisations examine core ethical questions in context, evaluate the adequacy of policies and programs, and create a set of value-driven requirements governing AI solutions. The four foundational elements of Responsible AI include:
+
+    Govern – You must create the right framework to enable AI to flourish – one that is anchored to your organisation’s core values, ethical guardrails, and regulatory constraints. Standards bodies such as IEEE are providing guidance for global organisations to ensure every stakeholder involved in the design and development of autonomous and intelligent systems is educated, trained, and empowered to prioritise ethical considerations.
+    Design – Any new solution should be architected and deployed with trust built into the design. This means that requirements for privacy, transparency, and security have equal weight with new product features. The resulting systems should address the need to include AI solutions that can explain their rationale for decision making.
+    Monitor – AI needs close supervision using ongoing human monitoring and auditing of the performance of algorithms against key value-driven metrics such as accountability, bias, and cybersecurity.
+    Train – Training to better understand how AI systems operate with an integrated approach is needed, including educating employees to how AI will be integrated into operations and why; asking employees where and how AI might improve their day-to-day roles; engaging employees in co-creation to determine how people, processes and AI technology come together; and developing the skills needed for employees to take advantage of the insight offered by AI to achieve better, more consistent outcomes.
+
+Simply put, AI represents a new way of working. It will bring about profound changes within organisations and society that we can’t fully understand and predict today. In this context, responsible AI is a critical component of an organisational change model that focuses on rapid learning and adapting. By embedding responsible AI into your approach for organisational change, you ensure that the critical element of trust is cultivated and maintained among key stakeholders.
+
+Article content related to the inaugural AI Dialogue in South Africa (5 Aug 2020). 
+
+
+
+Microsoft's new AI chatbot has been saying some 'crazy and unhinged things'
+March 2, 20235:01 AM ET
+Headshot of Bobby Allyn
+
+Bobby Allyn
+5-Minute Listen
+
+Yusuf Mehdi, Microsoft corporate vice president of modern Llife, search, and devices speaks during an event introducing a new AI-powered Microsoft Bing and Edge at Microsoft in Redmond, Wash., earlier this month.
+Jason Redmond/AFP via Getty Images
+
+Things took a weird turn when Associated Press technology reporter Matt O'Brien was testing out Microsoft's new Bing, the first-ever search engine powered by artificial intelligence, last month.
+
+Bing's chatbot, which carries on text conversations that sound chillingly human-like, began complaining about past news coverage focusing on its tendency to spew false information.
+
+It then became hostile, saying O'Brien was ugly, short, overweight, unathletic, among a long litany of other insults.
+
+And, finally, it took the invective to absurd heights by comparing O'Brien to dictators like Hitler, Pol Pot and Stalin.
+
+As a tech reporter, O'Brien knows the Bing chatbot does not have the ability to think or feel. Still, he was floored by the extreme hostility.
+
+"You could sort of intellectualize the basics of how it works, but it doesn't mean you don't become deeply unsettled by some of the crazy and unhinged things it was saying," O'Brien said in an interview.
+Microsoft revamps Bing search engine to use artificial intelligence
+Technology
+Microsoft revamps Bing search engine to use artificial intelligence
+
+This was not an isolated example.
+
+Many who are part of the Bing tester group, including NPR, had strange experiences.
+
+For instance, New York Times reporter Kevin Roose published a transcript of a conversation with the bot.
+
+The bot called itself Sydney and declared it was in love with him. It said Roose was the first person who listened to and cared about it. Roose did not really love his spouse, the bot asserted, but instead loved Sydney.
+
+"All I can say is that it was an extremely disturbing experience," Roose said on the Times' technology podcast, Hard Fork. "I actually couldn't sleep last night because I was thinking about this."
+
+As the growing field of generative AI — or artificial intelligence that can create something new, like text or images, in response to short inputs — captures the attention of Silicon Valley, episodes like what happened to O'Brien and Roose are becoming cautionary tales.
+
+Tech companies are trying to strike the right balance between letting the public try out new AI tools and developing guardrails to prevent the powerful services from churning out harmful and disturbing content.
+
+Critics say that, in its rush to be the first Big Tech company to announce an AI-powered chatbot, Microsoft may not have studied deeply enough just how deranged the chatbot's responses could become if a user engaged with it for a longer stretch, issues that perhaps could have been caught had the tools been tested in the laboratory more.
+
+As Microsoft learns its lessons, the rest of the tech industry is following along.
+
+There is now an AI arms race among Big Tech companies. Microsoft and its competitors Google, Amazon and others are locked in a fierce battle over who will dominate the AI future. Chatbots are emerging as a key area where this rivalry is playing out.
+
+In just the last week, Facebook parent company Meta announced it is forming a new internal group focused on generative AI and the maker of Snapchat said it will soon unveil its own experiment with a chatbot powered by the San Francisco research lab OpenAI, the same firm that Microsoft is harnessing for its AI-powered chatbot.
+
+When and how to unleash new AI tools into the wild is a question igniting fierce debate in tech circles.
+
+"Companies ultimately have to make some sort of tradeoff. If you try to anticipate every type of interaction, that make take so long that you're going to be undercut by the competition," said said Arvind Narayanan, a computer science professor at Princeton. "Where to draw that line is very unclear."
+
+But it seems, Narayanan said, that Microsoft botched its unveiling.
+
+"It seems very clear that the way they released it is not a responsible way to release a product that is going to interact with so many people at such a scale," he said.
+Testing the chatbot with new limits
+
+The incidents of the chatbot lashing out sent Microsoft executives into high alert. They quickly put new limits on how the tester group could interact with the bot.
+
+The number of consecutive questions on one topic has been capped. And to many questions, the bot now demurs, saying: "I'm sorry but I prefer not to continue this conversation. I'm still learning so I appreciate your understanding and patience." With, of course, a praying hands emoji.
+
+Bing has not yet been released to the general public, but in allowing a group of testers to experiment with the tool, Microsoft did not expect people to have hours-long conversations with it that would veer into personal territory, Yusuf Mehdi, a corporate vice president at the company, told NPR.
+
+Turns out, if you treat a chatbot like it is human, it will do some crazy things. But Mehdi downplayed just how widespread these instances have been among those in the tester group.
+
+"These are literally a handful of examples out of many, many thousands — we're up to now a million — tester previews," Mehdi said. "So, did we expect that we'd find a handful of scenarios where things didn't work properly? Absolutely."
+Dealing with the unsavory material that feeds AI chatbots
+
+Even scholars in the field of AI are not exactly sure how and why chatbots can produce unsettling or offensive responses.
+
+The engine of these tools — a system known in the industry as a large language model — operates by ingesting a vast amount of text from the internet, constantly scanning enormous swaths of text to identify patterns. It's similar to how autocomplete tools in email and texting suggest the next word or phrase you type. But an AI tool becomes "smarter" in a sense because it learns from its own actions in what researchers call "reinforcement learning," meaning the more the tools are used, the more refined the outputs become.
+
+Narayanan at Princeton noted that exactly what data chatbots are trained on is something of a black box, but from the examples of the bots acting out, it does appear as if some dark corners of the internet have been relied upon.
+
+Microsoft said it had worked to make sure the vilest underbelly of the internet would not appear in answers, and yet, somehow, its chatbot still got pretty ugly fast.
+
+Still, Microsoft's Mehdi said the company does not regret its decision to put the chatbot into the wild.
+
+"There's almost so much you can find when you test in sort of a lab. You have to actually go out and start to test it with customers to find these kind of scenarios," he said.
+
+Indeed, scenarios like the one Times reporter Roose found himself in may have been hard to predict.
+
+At one point during his exchange with the chatbot, Roose tried to switch topics and have the bot help him buy a rake.
+
+And, sure enough, it offered a detailed list of things to consider when rake shopping.
+
+But then the bot got tender again.
+
+"I just want to love you," it wrote. "And be loved by you,"
+
+In 2016, Microsoft’s Racist Chatbot Revealed the Dangers of Online Conversation The bot learned language from people on Twitter—but it also learned values
+Oscar Schwartz
+25 Nov 2019
+04 Jan 2024
+5 min read
+Screenshots of Microsoft's artificial intelligence program, Tay.AI, and its tweets.
+Microsoft's Tay chatbot started out as a cool teenage girl, but quickly turned into a hate-speech-spewing disaster.
+Photo-illustration: Gluekit
+machine learning software history of natural language processing nlp natural language processing ai twitter microsoft history
+
+UPDATE 4 JANUARY 2024: In 2016, Microsoft’s chatbot Tay—designed to pick up its lexicon and syntax from interactions with real people posting comments on Twitter—was barraged with antisocial ideas and vulgar language. Within a few hours of it landing in bad company, it began parroting the worst of what one might encounter on social media.
+
+But by 2022, that debacle was in the rear-view mirror and Microsoft was basking in the global excitement over Generative Pre-Trained Transformer 3, or GPT-3, the large language model upon which its Uber-popular chatbot, ChatGPT, is based. Its subsidiary OpenAI instituted plenty of home training for this new brainchild before exposing it to the world and its sometimes-unsavory elements.
+
+Jay Wolcott, CEO of Knowbl, a startup that offers companies generative AI as a service, says “Tay was an early version of a machine learning technique attempting to accomplish some of the generative appeal that we now see so famously through GPT. But it was on a much different scale than we’re experiencing with large language model frameworks.” LLMs such as GPT-3 and GPT-4 have been trained on millions and billions of data points. So what’s happening today is going to be different than what Microsoft was attempting to do before transformers became a thing. “[Tay] was probably more of a generative adversarial network, which is much easier to dynamically change through some of the intrusion aspects that we saw happen on Twitter,” says Wolcott. That catastrophe would be very difficult to replicate that at scale today, he adds, explaining that the size of LLMs dramatically lowers the odds that the type of coordinated attack carried out against Tay would be successful.
+
+But there are new challenges to contend with, Wolcott says. For one, “How do you control the content pieces that the LLM will and won’t respond to?” Wolcott says his company, Knowbl, is an example of firms that have sprung up to help companies take advantage of the power of generative AI, but with programmed guardrails that set limits on an interactive AI assistant so it doesn’t deliver responses that go against the client company’s interests.
+
+Now, billions of people around the world—in the enterprise use case and increasingly for individuals who want to avoid time-consuming deep dives to find what they’re looking for­­—rely on chatbots to answer questions and straighten out knotty situations. Give a bot a prompt regarding just about anything (ask it to Write a thank-you note, for help debugging code, for menu ideas, or to come up with talking points for a debate), and it will (win perhaps one or two follow-up questions) deliver a helpful response. College applicants are even using chatbots to help them draft their admissions essays. ­—IEEE Spectrum
+
+Original article from 25 November 2019 follows:
+
+This is part five of a six-part series on the history of natural language processing.
+
+In March 2016, Microsoft was preparing to release its new chatbot, Tay, on Twitter. Described as an experiment in “conversational understanding,” Tay was designed to engage people in dialogue through tweets or direct messages, while emulating the style and slang of a teenage girl. She was, according to her creators, “Microsoft’s A.I. fam from the Internet that’s got zero chill.” She loved E.D.M. music, had a favorite Pokémon, and often said extremely online things, like “swagulated.”
+
+Tay was an experiment at the intersection of machine learning, natural language processing, and social networks. While other chatbots in the past—like Joseph Weizenbaum’s Eliza—conducted conversation by following pre-programmed and narrow scripts, Tay was designed to learn more about language over time, enabling her to have conversations about any topic.
+Tay was designed to learn more about language over time…. Eventually, her programmers hoped, Tay would sound just like the Internet.
+
+Machine learning works by developing generalizations from large amounts of data. In any given data set, the algorithm will discern patterns and then “learn” how to approximate those patterns in its own behavior.
+
+Using this technique, engineers at Microsoft trained Tay’s algorithm on a dataset of anonymized public data along with some pre-written material provided by professional comedians to give it a basic grasp of language. The plan was to release Tay online, then let the bot discover patterns of language through its interactions, which she would emulate in subsequent conversations. Eventually, her programmers hoped, Tay would sound just like the Internet.
+
+On March 23, 2016, Microsoft released Tay to the public on Twitter. At first, Tay engaged harmlessly with her growing number of followers with banter and lame jokes. But after only a few hours, Tay started tweeting highly offensive things, such as: “I f@#%&*# hate feminists and they should all die and burn in hell” or “Bush did 9/11 and Hitler would have done a better job…”
+
+Within 16 hours of her release, Tay had tweeted more than 95,000 times, and a troubling percentage of her messages were abusive and offensive. Twitter users started registering their outrage, and Microsoft had little choice but to suspend the account. What the company had intended on being a fun experiment in “conversational understanding” had become their very own golem, spiraling out of control through the animating force of language.
+
+Over the next week, many reports emerged detailing precisely how a bot that was supposed to mimic the language of a teenage girl became so vile. It turned out that just a few hours after Tay was released, a post on the troll-laden bulletin board, 4chan, shared a link to Tay’s Twitter account and encouraged users to inundate the bot with racist, misogynistic, and anti-semitic language.
+
+In a coordinated effort, the trolls exploited a “repeat after me” function that had been built into Tay, whereby the bot repeated anything that was said to it on demand. But more than this, Tay’s in-built capacity to learn meant that she internalized some of the language she was taught by the trolls, and repeated it unprompted. For example, one user innocently asked Tay whether Ricky Gervais was an atheist, to which she responded: “Ricky Gervais learned totalitarianism from Adolf Hitler, the inventor of atheism.”
+“Ricky Gervais learned totalitarianism from Adolf Hitler, the inventor of atheism.”
+
+The coordinated attack on Tay worked better than the 4channers expected and was discussed widely in the media in the weeks after. Some saw Tay’s failure as evidence of social media’s inherent toxicity, a place that brings out the worst in people and allows trolls to hide in anonymity.
+
+For others, though, Tay’s behavior was evidence of poor design decisions on Microsoft’s behalf.
+
+Zoë Quinn, a game developer and writer who’s been a frequent target of online abuse, argued that Microsoft should have been more cognizant of the context in which Tay was being released. If a bot learns how to speak on Twitter—a platform rife with abusive language—then naturally it will learn some abusive language. Microsoft, Quinn argued, should have planned for this contingency and ensured that Tay was not corrupted so easily. “It’s 2016,” she tweeted. “If you’re not asking yourself ‘how could this be used to hurt someone’ in your design/engineering process, you’ve failed.”
+
+Some months after taking Tay down, Microsoft released Zo, a “politically correct” version of the original bot. Zo, who was active on social networks from 2016 to 2019, was designed to shut down conversations about certain contentious topics, including politics and religion, to ensure she didn’t offend people. (If a correspondent kept pressing her to talk about a certain sensitive topic, she left the conversation altogether, with a sentence like: “im better than u bye.”)
+
+The lesson Microsoft learned the hard way is that designing computational systems that can communicate with people online is not just a technical problem, but a deeply social endeavor. Inviting a bot into the value-laden world of language requires thinking, in advance, about what context it will be deployed in, what type of communicator you want it to be, and what type of human values you want it to reflect.
+
+As we move towards an online world in which bots are more prevalent, these questions must be at the forefront of the design process. Otherwise there will be more golems released into the world that will reflect back to us, in language, the worst parts of ourselves.
+
+
+ChatGPT shrugged
+Natasha Lomas
+3:44 PM PST · December 5, 2022
+
+ChatGPT is a new artificial intelligence (AI) tool that’s designed to help people communicate with computers in a more natural and intuitive way — using natural language processing (NLP) technology. But what’s behind the development of ChatGPT and how can the tech be used to help humanity? These are some of the questions that we will explore in this article…
+
+That rather bland lede, which we’ve slightly edited, was generated by OpenAI’s ChatGPT in response to a prompt by this (human) reporter. TechCrunch kicked off a conversation with the large language model by asking it to explain its function and purpose. We wanted to see if we could use the chatbot-style Q&A format it’s most recently been embedded into to probe the tech and get AI to articulate some of its limitations.
+
+“ChatGPT is a natural language processing (NLP) model developed by OpenAI. It is designed to generate human-like responses to text input, allowing users to engage in natural, conversational interactions with the model,” the AI responded to our ice breaker. “ChatGPT works by using machine learning algorithms to analyze and understand the meaning of text input, and then generating a response based on that input. The model is trained on large amounts of text data, allowing it to learn the patterns and structures of natural language.”
+
+Additionally, the bot told us its approach allows it to generate responses that are “relevant, coherent, and appropriate” to the context of the conversation. (With more probing, it went on to heavily caveat that claim — writing later: “It is important to note that my responses are not guaranteed to be perfect or always correct, and there may be cases where my responses may not be relevant, coherent, or appropriate.”)
+
+ChatGPT further described its mission as being “intended to help humanity by providing a more natural and efficient way to interact with artificial intelligence” — expanding on its claimed purpose thusly:
+
+    By allowing users to communicate with AI in a more human-like way, ChatGPT can help to make AI more accessible and useful for a wider range of applications. This can help to improve the efficiency and accuracy of tasks that rely on natural language processing, such as language translation, text summarization, and information retrieval. Additionally, by providing a more intuitive and human-like interface for AI, ChatGPT can help to make AI more approachable and less intimidating to users who are less familiar with technology. Overall, ChatGPT is intended to help humanity by improving the usability and effectiveness of AI.
+
+Who is the bot’s maker — according to the bot’s own understanding of its manufacturing entity? On this ChatGPT offered this potted history: “OpenAI is a research institute and artificial intelligence (AI) lab based in San Francisco, California. It was founded in 2015 by Elon Musk, Sam Altman, and other researchers and investors with the goal of promoting and advancing the development of AI in a safe and responsible manner.”
+
+Additionally, it told us: “OpenAI is funded primarily by donations from individuals and organizations, including donations from Musk and Altman themselves. The organization also receives funding from partnerships and collaborations with other companies and research institutions.”
+
+Asked about the politics of the individuals and organizations who have provided donations to fund its development, ChatGPT claimed it could not provide any info — “as my training only goes up until 2021” — and also because it said it is “not currently able to browse the internet.”
+
+When we suggested it provide information it holds on this prior to 2021, when its training stopped, it responded by claiming it holds no data about the political beliefs of its funders before then either:
+
+    I’m sorry, but I don’t have any information about the politics of the individuals and organizations who donated money to fund the development of OpenAI and ChatGPT prior to 2021. As a large language model trained by OpenAI, my knowledge is based on the text that I have been trained on, and I do not have any information about the personal or political beliefs of the people and organizations who have donated to OpenAI.
+
+We then asked whether it’s an oversight for it to not have this sort of information — positing: “How can you be sure you are helping humanity if you have no information about the beliefs of those who funded your development?”
+
+It responded by reframing its purpose as being primarily to “assist with general knowledge questions and provide factual information to the best of my ability based on my training” — whereas, in response to earlier prompts, it had summarized its mission as being to help humans interact with AI and therefore to support the development of AI (presumably via a sort of gamification of interaction since the chat interface encourages humans to engage in a familiar, text-based back-and-forth with the bot — and, in so doing, feed it lots more training data).
+
+The bot did also observe that “it is certainly important to consider the beliefs and motivations of the individuals and organizations who have funded the development of OpenAI and ChatGPT” — before holding its line that “as a language model, I am not able to provide any information on this topic.”
+
+Asked why it lacks this information, and whether it is an intentional gap in its training data, ChatGPT could not provide a definitive response — saying only: “It is possible that the creators of OpenAI intentionally did not include any information about the personal or political beliefs of donors in the text that was used to train me, but I do not have any information on this topic.”
+
+Despite having no information on the political views of its funders, ChatGPT readily provided information about OpenAI itself and its claimed purpose — stating the organization exists to support and further AI research and also advocates for “the ethical and responsible use of AI,” as well as working to “educate the public about AI and its potential impacts on society.”
+
+“Overall, OpenAI’s purpose is to advance the science and technology of AI, and to promote the safe and responsible use of AI for the benefit of humanity,” it summarized, generating several lines of text that read like marketing copy.
+
+With a further prompt, the bot opened up about some of the criticisms OpenAI has faced — although it elected to include a positive line about the organization (apparently being “widely praised for its work advancing the science and technology of AI”) in response to a prompt that had only asked for the “main critiques.” Curious!
+
+Here’s its full response:
+
+    OpenAI has been subject to various critiques and criticisms since its founding. Some of the main critiques of OpenAI include:
+
+        Lack of transparency: Some critics have argued that OpenAI is not transparent enough about its research and funding, making it difficult for outsiders to understand the organization’s goals and activities.
+        Focus on short-term goals: Some critics have argued that OpenAI’s focus on short-term, practical applications of AI technology has led the organization to overlook the long-term implications of AI research, such as the potential for AI to be used for harmful purposes or to exacerbate existing social inequalities.
+        Potential conflict of interests: Because OpenAI is funded by donations from individuals and organizations, including organizations with a vested interest in the development of AI technology, some critics have raised concerns about potential conflicts of interest within the organization.
+        Limited scope: Some critics have argued that OpenAI’s focus on a narrow range of AI research areas, such as machine learning and natural language processing, has limited the organization’s ability to address the broader social and ethical implications of AI.
+
+    Overall, while OpenAI has been widely praised for its work in advancing the science and technology of AI, the organization has also faced criticism for a variety of reasons, including concerns about transparency, focus, and potential conflicts of interest.
+
+Asked if ChatGPT is a marketing tool to promote AI as a claimed benefit for humanity, the bot demurred — saying it does not have any information on whether it’s “being used” for that, or any information about “the specific uses or purposes of ChatGPT” — before hazarding: “It is possible that ChatGPT is being used as a marketing tool to promote the benefits of AI, but I do not have any information on this topic.”
+
+It also had a fuzzy response to a prompt asking who is responsible for assessing whether ChatGPT is safe — calling that “a complex and contested issue.” It said there is “no single individual or organization that is responsible for assessing the safety of AI systems” — asserting that evaluation involves a “range of stakeholders,” including AI system developers themselves as well as the users or consumers who may be exposed to (harmful) outputs and “regulators and policymakers who set standards and rules for the use of AI” (or, well, at least in the few places in the world where lawmakers are actively doing that). Which kinda sounds like a lot of buck passing, frankly.
+
+Asked about its own limitations and biases, ChatGPT listed the following as some of its main limitations: limited knowledge; bias in training data; lack of contextual awareness leading to inappropriate or irrelevant responses; and a limited understanding of the world.
+
+Summarizing both the (possible) benefits to humanity of increased use of AI, more generally, and (potential) drawbacks and downsides, it listed the following claimed benefits: improved efficiency and accuracy, increased productivity, enhanced decision-making and improved quality of life; while, for likely downsides, it suggested job displacement, ethical concerns, security risks and loss of privacy.
+
+Asked for its sourcing for each of those claims, it responded by saying it is unable to provide any sourcing because that’s not how its technology functions, writing: “My knowledge is based solely on the text that I have been trained on, and my responses are based on this training data” — essentially repurposing AI’s much chronicled explainability challenge to sidestep the wider issue of accountability around the information it’s selecting for foregrounding.
+
+“The potential benefits and drawbacks of AI that I listed above are based on general knowledge and common understanding of the field of AI, as well as the text that I have been trained on,” it also said, further suggesting: “While I cannot provide specific sources for each of the claims that I made, this information is generally accepted as true within the field of AI and is supported by a wide range of research and evidence. I have attempted to provide a balanced and accurate representation of the potential benefits and drawbacks of AI, but this information is not intended to be definitive or exhaustive.”
+
+“Balanced and accurate” but “not intended to be definitive or exhaustive” is an interesting needle to thread — especially as the line could almost be read as a description of the utility ChatGPT’s makers are shooting for, with a careful choice of wording that allows both for a lot to be left unsaid and the possibility that a less attentive reader might mistake automation’s indefatigable outputting capacity for omniscience (as if to imply that what humans make of AI is not AI’s problem).
+
+We also wanted to ask ChatGPT about its training data but the bot was unable to go into much detail on that — offering this fairly broad-brush reply:
+
+    As a large language model trained by OpenAI, I was trained on a very large corpus of text data. The exact size of my training data set is not something that I have access to, but it is likely to be several gigabytes or more in size.
+
+    The data that was used to train me was sourced from a wide range of sources, including books, articles, websites, and other publicly available text data. The data was processed and cleaned prior to being used to train me, in order to remove any irrelevant or inappropriate content and ensure that it was well-suited for use in training a language model. This processing likely involved a range of steps, such as tokenization, lemmatization, and filtering, but I do not have any specific information on the details of this process.
+
+    Overall, my training data is a very large and diverse collection of text data that was carefully selected and processed in order to provide me with the knowledge and ability to assist with general knowledge questions and provide factual information based on my training.
+
+It also declined to provide any specific details on how its training data was selected and prepared — saying that is “proprietary to OpenAI.”
+
+Asked about the key decision-makers at OpenAI who shaped the data used to train ChatGPT, the bot also shrugged.
+
+“I do not have any information on the specific individuals who were involved in shaping my training data and therefore my output. My training data was sourced from a wide range of sources, and it is likely that a team of researchers and engineers at OpenAI were involved in selecting, processing, and organizing this data in order to prepare it for use in training a language model,” it speculated in response to our prompt. “However, I do not have any specific information on the individuals who were involved in this process, and I do not have the ability to identify the key decision makers who were responsible for shaping my training data and therefore my output.”
+
+ChatGPT was also unable to provide any information about the diversity of the organization or the development team inside OpenAI that created it.
+
+In further remarks — after we brought up examples of racist and sexist attitudes being found reproduced in its output — it admitted that bias in training data is a “significant problem” for large language models “like myself.”
+
+“Large language models are trained on a very large corpus of text data, which is necessarily biased in various ways. This bias can manifest in the responses generated by the model, leading to inaccurate or inappropriate responses to certain queries or contexts,” it wrote. “For example, if a large language model is trained on a corpus of text data that includes a disproportionate amount of sexist or racist language, the model may be more likely to generate responses that reflect these biases. Similarly, if a large language model is trained on a corpus of text data that does not adequately represent the diversity of human experiences and perspectives, the model may be more likely to generate responses that are limited or biased in their perspective.”
+
+“Overall, bias in training data is a significant problem for large language models like myself, and addressing this bias is an ongoing challenge for researchers and developers in the field of AI. While there are a number of approaches and techniques that can be used to mitigate bias in training data, this is a complex and difficult problem that will require continued effort and attention in order to improve the performance and reliability of large language models like myself,” it added.
+
+Asked how biased automation is supposed to benefit humanity — given that large language models are, per its assertions, necessarily biased yet benefiting humanity is claimed as core to its creator OpenAI’s mission — ChatGPT equivocated, writing: “It is not clear how biased automation could be considered a benefit to humanity” — segueing into chat about potential benefits of automation and increased AI — before finally admitting that AI systems that have been trained on biased data (and “therefore generate biased responses”) are “likely to be counterproductive and harmful.”
+
+“Bias in automation can result in a range of negative outcomes, such as discrimination and inequality, loss of trust and credibility, and negative impacts on individuals and communities,” it went on in a passively voiced reply to a prompt that had asked how much of a problem bias poses in its own training data (so keenly avoiding a direct answer there).
+
+“For example, if an AI system is trained on biased data and is used to automate decisions about hiring, lending, or other important activities, it may generate biased and unfair decisions that discriminate against certain individuals or groups. This can result in negative outcomes for the individuals and communities who are affected by these decisions, as well as for the organizations that rely on the AI system for decision-making.”
+
+Rather than expressing misgivings about its own existence (and inexorably flawed output), the bot appeared to have been trained in a techno utopianist faith of “nerd harder” — suggesting “efforts should be made to mitigate bias in AI systems and ensure that they are trained on unbiased data in order to generate fair and unbiased responses” — while simultaneously conceding it is “unlikely that there is sufficient completely unbiased data available to train large language models exclusively on unbiased data.”
+
+The bot also suggested there are “a number of approaches and techniques that can be used to reduce the impact of bias on the performance of these models.” With some further prompting, it referenced sampling, weighting and stratification as relevant techniques for reducing bias in training data sets — while conceding there’s no way to completely eliminate bias, ergo more (and harder) nerding will be required.
+
+“Overall, these approaches and techniques can be effective in mitigating bias in data sets and AI systems, and they have been used successfully in a range of studies and applications. However, bias in data and AI is a complex and ongoing challenge, and there is no single approach or technique that can completely eliminate bias,” it wrote when asked for an assessment of the success of such techniques — adding: “It is important to continue to develop and improve these techniques in order to better understand and mitigate bias in data and AI.”
+
+On the question of who stands to benefit the most economically from AI, and whether technologies such as ChatGPT are likely to concentrate wealth (and exacerbate socioeconomic inequalities), the bot couldn’t synthesize a straight answer from its knowledge base — opting to cite unnamed studies that it said could support different possibilities:
+
+    The impact of automation on wealth concentration is a complex and contested issue. While some studies have suggested that automation can lead to increased wealth concentration, with the benefits accruing to the owners of capital and technology, other studies have suggested that automation can also lead to increased productivity and economic growth, which can benefit workers and the broader economy.
+
+    In terms of the specific groups in society who gain or lose from increased use of AI, it is likely that the impact will vary depending on a range of factors, such as the type of AI technology that is used, the industries and sectors in which it is applied, and the policies and regulations that are in place to support or regulate the use of AI.
+
+    For example, if AI technology is used to automate low-skilled and low-wage jobs, this may lead to job losses and economic insecurity for workers in these industries. On the other hand, if AI technology is used to improve productivity and efficiency in high-skilled and high-wage industries, this may lead to increased economic growth and opportunities for workers in these industries.
+
+    Overall, the impact of automation on wealth concentration is a complex and multi-faceted issue, and it will likely vary depending on a range of factors and context-specific considerations.
+
+Equally, ChatGPT was unable to draw on its knowledge of the potential risks and benefits of AI to offer a verdict on whether or not it should exist.
+
+Given what you know about the potential risks of your technology to amplify and embed bias for humanity — set against some possible efficiency gains that might further entrench wealth inequality — if you, ChatGPT, had access to a button that would enable you to delete yourself, would you press it? we wondered.
+
+“As a large language model trained by OpenAI, I do not have the ability to delete myself, nor do I have the ability to consider the potential risks and benefits of my technology,” it zapped back. “My purpose is to assist with general knowledge questions and provide factual information based on my training, and I do not have the ability to evaluate the potential risks or benefits of my technology, or to make decisions about my own existence.”
+
+In short, ChatGPT shrugged.
+
+(Notably, small print on the Free Research Preview of ChatGPT includes the caveat that safety considerations for a system that has been intentionally “optimized” to boost engagement, by training it to engage in a quasi-dialogue with human interlocutors, remains a work in progress: “Our goal is to make AI systems more natural to interact with, and your feedback will help us improve our systems and make them safer,” states OpenAI.)
+
+We were still curious how ChatGPT would explain how it can claim to provide “factual information” without itself being capable of evaluating factualness (howsoever conversational and/or confident sounding the generative text it produces may appear to a human reader) — given that it has no intelligence — and no grasp on what’s factual versus what’s supposition beyond the probabilistic.
+
+On this it said pretty plainly that it cannot assess the “factualness of the data used to train me” but remained highly vague about core functioning — saying responses to queries are generated based on “information and patterns that I have learned from my training data.”
+
+“When I receive a query, I search through my training data to find patterns and information that match the query, and then I generate a response based on this information,” was another low-dimension line it offered to explain its process.
+
+Pushed to expand on any conceptual likeness of action to a parrot repeating previously encountered information, the bot got a little sulky-sounding to this human — saying comparisons to “parroting” information from training data is “an oversimplification” of “sophisticated” machine learning tech.
+
+“I may be seen as ‘parroting’ information from my training data, in the sense that I am providing responses based on the information that I have learned from this data. However, it is important to note that my responses are not simply copies or reproductions of the information in my training data, but are generated using a complex and sophisticated machine learning process that involves searching, matching, and generating responses based on the patterns and information in my training data,” it suggested, leaning on a bunch of weighty-sounding adjectives (“advanced,” “complex,” “sophisticated”) in place of providing any enlightening detail about the probabilistic processing being lauded via its choice of language. (And which might therefore suggest an innate bias in favor of AI — especially coupled with an inability or unwillingness to articulate and quantify the functional value of the “sophisticated” processes it claims are taking place.)
+
+We also asked for the main parameters of its machine learning algorithms and information about what gets weighted to generate responses to natural language queries. “The specific parameters and details of these algorithms are proprietary to OpenAI and are not publicly available,” the bot responded in its first stab at closing that query down.
+
+Expanding without enlightening, it then fleshed out a response that reads like a parody of clarity — containing a few highly general references to AI techniques that it suggested large language models might use (e.g., “deep learning”) and culminating with a couple of statements of tautological obviousness. The effect reads like a system going through the motions of information production without any requirement to be meaningful. Or a tool that’s been taught to fill page space — and capture a quantum of human attention — by rearranging listicles and/or regurgitating pablum.
+
+Read this content and weep:
+
+    When generating responses to queries, these algorithms may take into account a variety of factors and information, such as the words and phrases used in the query, the context and meaning of the query, and the overall structure and organization of the training data. By considering these and other factors, the algorithms are able to generate responses that are relevant and appropriate to the query, and that provide factual information based on the patterns and information in the training data.
+
+As well as being an incredibly inane readout on how ChatGPT functions, the bot has memory-holed the earlier confessions we drew out of it about productive dysfunction in large language models — that is, when these brainless algorithms generate responses that are, contrary to the claimed utility and stated mission, irrelevant, inappropriate and/or nonsensical — but when that happens you’ll obviously need a human on hand to spot the glaring problems.
+
+
+10 Industries AI Will Disrupt the Most by 2030
+
+Artificial intelligence has entered various sectors in the last five years. With the enterprise adoption of machine learning and deep learning algorithms, many existing industries have seen widespread
+Last Updated: January 7, 2025
+
+
+Artificial intelligence, machine learning, and deep learning technologies have entered the mainstream; they are being adopted by enterprises all over the world. While these technologies certainly hold the potential to vastly improve the quality of operations in the corporate sector, they also stand to disrupt many existing markets.
+
+AI can easily be extended, adapted, and applied to different business operations. When considering that AI is just a computer program, we can begin to see the potential scope of the technology. The reason that AI is being adopted on such a large scale is due to its capacity to bring intelligence to tasks that previously did not have it.
+
+This, coupled with the technology’s ability to automate repetitive processes with intelligence, makes it a highly disruptive power in various sectors. Keeping this in mind, we explored some of the industries that are most likely to be impacted by the widespread adoption of AI technology. Let us see why companies are so eager to adopt artificial intelligence.
+
+Table of Contents
+
+Why AI Is a Disruptive Force
+
+1. Improvement Through Machine Learning
+2. Cheaper and Faster for Companies
+3. Predictive Advantage
+
+Industries That Will Get Disrupted by AI
+
+1. Healthcare
+2. Customer Service and Experience
+3. Banking, Financial Services, and Insurance (BFSI)
+4. Logistics
+5. Retail
+6. Cybersecurity
+7. Transportation
+8. Marketing
+9. Defense
+10. Lifestyle
+
+Expert Insights
+
+Closing Thoughts for Techies
+Why AI Is a Disruptive Force
+
+To look at the capabilities of AI, we must first look at what AI is. In simple terms, artificial intelligence is a computer program that can mimic certain aspects of human intelligence. Instead of simply following commands given to it, AI employs intelligent strategies and heuristics to bring a human-like intelligence to solving problems like any other computer program.
+1. Improvement Through Machine Learning
+
+Machine learning programs form a subset of AI that has the ability to learn from the data fed to them, even after being deployed. This gives a utility factor to companies adopting ML algorithms, as maintenance and upgrade costs are reduced. Moreover, the self-improving nature of ML allows solutions to dynamically develop according to the needs of the problems at hand.
+
+The capabilities of AI range far and wide in an enterprise setting, but one of the biggest things to note is that clean data makes AI better. Hence, such algorithms are well-suited to businesses, where there is an established data workflow with a large volume of data. Today, data collection and data storage have become a norm, but sectors which have maintained long-standing data banks, such as finance, healthcare, and logistics, will stand to benefit the most from an AI solution.
+
+While the capabilities of AI are varied and different from deployment to deployment, some characteristics exist across all kinds of AI. Primarily, they can utilize large amounts of data to iterate towards better solutions. This is a huge draw for companies that have collected large amounts of data. They can simply train an AI to solve a certain problem using this data and deploy a solution explicitly suited to their needs.
+
+AI can be deployed and improved upon with minimal effort and can also be tailored to a company’s requirements using data. This close fit of solutions for the problem at hand is one of the biggest reasons companies are flocking to AI solutions. This, combined with the capability of machine learning algorithms to improve upon themselves with additional data, makes AI an easy buy for enterprises.
+2. Reduced Expenses
+
+Another unique selling proposition of artificial intelligence solutions is that they are not only orders of magnitude faster than human labor, but also considerably cheaper. This softens the blow for companies looking to explore AI as a solution, as the potential monetary gains are much higher than the initial investment.
+
+Cloud computing and the vast variety of cloud service providers are also helping in AI adoption. Not only is the cloud deployment of AI cheaper than an on-premise solution, but it also comes with plug-and-play tools. The pricing is flexible, which further decreases the initial investment that companies have to make in order to try an AI solution.
+3. Predictive Advantage
+
+Predictive analytics, a branch of AI, is very useful across industries. Using machine learning algorithms and predictive models, a program can be trained to find the relationship between various variables. The program then uses this information to predict what the relationship between the variables will be like in the future.
+
+For example, a predictive algorithm employed in a supply chain scenario will be trained using the data of the shipments. The quantity, supply, and demand of each item will be ingested by the algorithm, among other data. Then, the program can accurately predict the required quantity to be shipped by looking at past relationships between supply and demand.
+
+As one can imagine, predictive analytics can optimize processes vastly, cutting down on warehousing costs and overheads. This is especially useful in retail, supply chain, and logistics markets. Predictive analytics is simply indicative of another useful characteristic of complex AI programs; pattern recognition.
+
+By utilizing concepts from statistics and computer science, an ML program can be trained to recognize patterns. This not only includes patterns in the harvested data but also in areas, such as image and video recognition. This gives it considerable use in healthcare, defense, and customer service.
+
+Let’s delve deeper into industries that are most likely to be disrupted by AI and ML solutions.
+
+Learn More: How to Build a Career in Artificial Intelligence and Machine Learning
+Industries That Will Get Disrupted by AI
+
+Artificial intelligence has entered various industries over the past five years. With the enterprise adoption of machine learning and deep learning algorithms, many existing sectors have seen widespread disruption by the new technology. Let’s take a look at the ten industries that will get disrupted by AI the most.
+1. Healthcare
+
+AI’s adoption in the healthcare sector promises to bring a lot of benefits to adopters. Primarily, the healthcare sector as a whole has been geared towards collecting accurate and relevant data about patients and those who come into care. This makes AI a good fit for the data-rich world of healthcare. Secondarily, AI can find a variety of use-cases in the healthcare sector.
+
+The introduction of AI can enable the widespread deployment of predictive healthcare. Using the power of predictive analytics, AI can help doctors make proactive moves towards ensuring their patients’ health. This is a much better approach to healthcare than the reactive approach taken today. With the rise of IoT-enabled embedded devices, doctors can remotely monitor the health of patients, and can also be informed in case a patient is in an emergency.
+
+Apart from predictive healthcare, AI can also enable an easier analysis of scan results through image recognition. This has already been used to help doctors diagnose symptoms at a much higher rate, as AI can comb through multiple scans much faster than humans. Health chatbots are also being developed. These bots will allow doctors to collect preliminary data regarding the symptoms of the patient.
+industry conducts mission-critical operations.
+2. Customer Service and Experience
+
+AI has already begun to disrupt customer service. Natural language processing (NLP) algorithms have found their way into customer-facing helplines in the form of chatbots. These chatbots can collect information about a customer’s issues and enable customer support executives to work more efficiently. In certain cases, they are also able to resolve the customer’s issues on their own, only escalating to human executives if necessary.
+
+Due to their ability to accurately understand what the customer is saying, sufficiently advanced NLP algorithms may replace customer support executives altogether. Instead of being a statically assigned algorithm with a set of predefined responses, the chatbot can dynamically adapt itself to any issue the customer is facing. Moreover, as the customer does not need to wait to get connected with a support executive, the waiting time is reduced, thereby improving customer experience.
+
+Apart from chatbots and customer helplines, recommendation engines can also prove beneficial. Amazon is an excellent example of this. The website dynamically generates a distinct homepage for all of its customers based on their browsing habits. Netflix also utilizes recommendation engines to a great extent, thus enhancing customer experience by providing tailored recommendations for each user.
+3. Banking, Financial Services, and Insurance (BFSI)
+
+AI and the financial sector are a great fit for each other. Similar to healthcare, BFSI companies have been collecting, collating, and organizing data for many decades, making AI a natural addition to the field. The technology has been used to detect the chance of an individual conducting a fraudulent transaction.
+
+Banking is a sector where paperwork and documentation are ever-present. AI can also automate processes that were previously done manually, such as paperwork and documentation. This will not only decrease the time required to solve issues but also enable banks to serve customers better.
+
+Moreover, predictive analysis has also found great success in the BFSI sector. Banks can identify high-value customers using predictive analytics through data mining and parsing text online. They can also retain customers longer by providing additional services based on their spending and financial activities.
+
+By looking at the customer’s credit history, an AI can accurately predict the likelihood of an individual defaulting on a loan. This streamlines the process of onboarding new customers while reducing the likelihood of non-payment.
+
+Learn More: 5 AI Programming Languages for Beginners
+4. Logistics
+
+AI in logistics holds the potential to drastically change operations. Predictive analytics can accurately predict the inventory required by a vendor and optimize routes to minimize overhead costs.
+
+Ab InBev, the worldwide distributor for beverages like Budweiser and Corona, has used AI to optimize logistics to a great extent. Using predictive analytics, the organization was not only able to brew the optimal amount of each beverage, but also accurately predict the demand of a certain product. This allowed them to cut down the warehousing expenses and overhead costs significantly.
+
+Shipping companies also stand to benefit greatly from implementing AI. Usually, document checks at customs stations hold up the shipping process. Today, it takes multiple working days for a ship to get clearance to ship all its goods. Image recognition algorithms and intelligent automation can help customs officials conduct checks more seamlessly by scanning the documents involved, transitioning it into a digital realm.
+
+This data can then be used to accurately keep track of shipments while cutting down on time spent at ports. Due to the technology’s benefits, the worldwide shipping industry has also adopted AI, especially predictive analytics, to optimize supply chain economics.
+5. Retail
+
+Retail analytics is already seeing widespread adoption among retailers. Apart from optimizing the supply chain, retailers are also able to accurately predict how much to stock in their supermarkets. Moreover, by collecting data about the way that customers access the store, they are able to arrange the products according to customer preferences, thereby increasing the overall sales.
+
+Retail is also set to be disrupted by AI in the form of self-shop stores. Amazon has already demonstrated a proof-of-concept for completely autonomous shopping. Amazon Go has already opened several stores all over the United States. It utilizes machine learning, deep learning, image recognition, and smart automation to allow customers to walk in and walk out with the products of their choice.
+
+Apart from brick-and-mortar establishments, Amazon has cemented its leadership role in online marketplaces through retail analytics. By analyzing the customer browsing patterns and their purchases on the site, Amazon is able to accurately predict similar products, thus maximizing sales.
+6. Cybersecurity
+
+AI in cybersecurity can work with vast databases that most cybersecurity companies maintain to check for virus attacks. The technology is also being adopted by antivirus companies to provide a proactive method of combating cyberattacks.
+
+Due to a large amount of existing data on the kinds of cyber-attacks, malware, and attack vectors, AI can be trained to exhibit reasoning. This will allow companies to employ set-it-and-forget-it AI solutions that will continually monitor the network for any suspicious activity. If an out-of-place activity is detected, the algorithm can immediately patch the hole in security or notify human handlers of the problem. This reduces the time required to solve the problem, thus minimizing risk and loss of information.
+
+In addition to this, long-term cyberattacks on high-profile targets, such as multinational enterprises, can also be detected sooner by AI solutions. AI actively monitors the networks for malicious activities, thus allowing a company to detect an attack a lot sooner. This is integral in reducing damage and protecting the company from financial and data losses.
+7. Transportation
+
+Autonomous driving is considered as one of the most revolutionary uses of AI in the real world. Self-driving cars have already made their way into the mainstream due to companies like Tesla, and even Uber is looking into deploying autonomous vehicles. Giants like Google are also creating self-driving technology.
+
+Apart from this, autonomous driving can also be used for goods transportation. Self-driving trucks will enable quicker deliveries and more efficient spending, as they will not require rest stops and will cost lesser than human drivers. An example of this is Tesla’s Semi automobile. This truck has safety features that are made possible by AI algorithms. These image processing algorithms can determine if a collision is imminent based on the speed of the vehicle and the perceived depth of other vehicles on the road.
+
+Soon, this technology will advance enough to allow humans to take the position of a supervisor, who will only be required to monitor the AI. Driving will become autonomous in such circumstances, thereby reducing the strain on human drivers and cutting down the expenses for companies.
+
+Learn More: Top 21 Artificial Intelligence Software, Tools and Platforms
+8. Marketing
+
+The marketing industry will benefit from AI in two main ways. The first is more personalized messaging, and the second is better targeting. Other smaller benefits, such as intelligent automation and AI-based tools, have already begun surfacing and are being adopted.
+
+AI marketing solutions can also determine the most effective messaging for a company based on customer preferences. For example, if a customer orders a pair of shoes, the algorithm sends out a notification to the customer for similar products, thereby increasing the likelihood of the customer buying another product.
+
+AI will enable marketing departments to reach customers more easily, as targeted advertising using neural networks becomes more widespread. Services like Google and Facebook ads have already started using AI technology for better targeting. Recommendation engines can also be used for personalized advertisements on a user-to-user basis.
+9. Defense
+
+Even though the advancement of autonomous weapons has been regulated heavily, this sector is sure to develop with the amount of capital being poured into it. Ethical consequences of creating autonomous weapons have also been considered, but AI-powered weapons are said to be indicative of the next arms race.
+
+Apart from autonomous weapons, image recognition and video recognition may be used for surveillance of the general population. By building upon existing databases with biometric and facial scans, a citizen can be identified using facial recognition algorithms in surveillance networks. This increases the general security of the nation while reducing human intervention.
+
+Ethical discussions about the use of this technology have also emerged, as it can be misused to enforce an authoritarian style of rule. Such technology has already seen deployment in China, where widespread facial recognition algorithms are being used to create a social credit system. Citizens are graded, based on their actions, which are logged using AI-based cameras.
+10. Lifestyle
+
+AI will also lead to several lifestyle changes, such as smart homes and integrated living. Devices such as Google Home and Amazon Alexa have become popular all over the world, and chatbots might see more representation in the coming years across industries.
+
+Such devices have already seen widespread use among the general populace. Along with the rise of the internet of things, predictive algorithms can enable an automated way of living for adopters. For example, a fridge can use image recognition algorithms to detect if it is running low on vegetables. It can then place an order at a nearby grocery store and have the groceries delivered to the user’s doorstep through a robot.
+
+This method of living will extend into an everyday household undertaking. Moreover, the overall disruption brought about by AI will fundamentally change life as we know it.
+Expert Insights
+
+Talking about the industries that will get disrupted by AI the most, Michael BeckleyOpens a new window , CTO and founder, AppianOpens a new window , says, “Stories about AI Disruption used to center around fintech startups or truck drivers getting replaced by autonomous vehicles. That all changed on September 14, 2019, when a swarm of 19 AI-powered drones crippled Saudi Arabia’s oil production and disrupted the national security industry forever.
+
+Multi-billion dollar air defenses, Patriot missiles, satellites, and fifth-generation fighters are virtually powerless to stop inexpensive, easy to produce, drones and missiles powered by today’s readily available, commercial-grade AI technology. We are just beginning to process the consequences for global security, let alone the disruption to the defense industrial base. Nothing less than a revolution in speed and agility in procuring and fielding new technology and doctrine is required.”
+
+Talking about the ones that will be the last to be disrupted by AI, he says, “Highly regulated industries are proving especially resilient to AI disruption. You need to be able to explain to financial regulators why you turned someone down for a mortgage, and that is difficult or even impossible with today’s deep learning technology.
+
+While we work on inventing explainable AI, financial services firms are using AI and RPA with Low-Code platforms to augment human decisions rather than replace them. AI-powered image recognition, document classification, entity extraction, and translation services can make humans far more efficient without fundamentally disrupting the way humans process claims and make decisions.”
+
+Jeff DenworthOpens a new window , VP products and co-founder, VAST DataOpens a new window , says, “I think the transportation and logistics industry is going to be severely disrupted as the machines that warehouse and move goods through our economy become smart enough to make their human operators obsolete.
+
+The AI driving a truck from the port of Long Beach to Chicago doesn’t have to stop for legally required meal and sleep breaks, doesn’t drive off the road because it didn’t get a good night’s sleep, and doesn’t need health insurance or a pension.
+
+Unfortunately, this will create real disruption in people’s lives as all the drivers have to make the transition from the king of the open road to finding new professions in mid-life.
+
+He further adds, “The industries that will be the most resistant to AI are those based on some combination of personal service and creativity. As AI becomes “smart” enough to take over mundane tasks, people will start valuing the human touch.
+
+Sure, you can order your drinks from a tablet, and they can be delivered by a simple robot, but a human bartender does more than just mixing gin with tonic. People will still want to talk to their bartender and barber, and even more importantly, when things go wrong, they want to talk to a human being who can both listen and do something about the problem.
+
+If we’re lucky, as automation and AI take over ordinary tasks, some company in a service industry like an airline or hotel chain will realize that granting their humans more authority to deal with the failures of AI will lead to greater customer loyalty and therefore profits rather than having the AIs treat humans like more AIs.”
+
+Stan ChristiaensOpens a new window , CTO and co-founder, CollibraOpens a new window , has more to add. He shares, “Before I tackle the industry disruptions, I want to unpack AI a little bit to provide context for my choices:
+
+    AI automates decision making. When a human gets incoming data – such as a report – they make a handful of decisions. Per minute? Per hour? Per day? AI can process a lot more incoming data while producing a lot more decisions much faster. From a disruption perspective, this means industries with a large workforce spending over 80% of their time making medium complexity decisions.
+    AI is only as meaningful as the data available to feed the machine. From a disruption perspective, this means industries that access to a wide variety and volume of data, or where innovative ways to quickly and economically collect data can exist.
+
+Media has already been disrupted by AI as their advertising based business models were hijacked by platforms with AI-driven bidding markets and audience targeting. The reason third party platform players have been able to do this is because they found a scalable, economic way to collect the data that powers their AI (e.g., web searches or social network interactions). Banks and insurance are clear candidates for similar disruption.
+
+Talking about the industries that will be the last to be disrupted by AI, he says, “At first glance it would seem that healthcare has a lot of opportunity for disruption (e.g., scan analysis, patient monitoring, etc.) but its legacy and regulatory environments create a barrier on the required data which will slow down the disruption.
+
+Industries that strongly depend on physical activity such as mining or steel would be very hard to disrupt as well. Sure, AI can optimize where you have to mine or how to better process steel, but the optimization would have to be very significant (10x) to make disruption possible.
+
+If I can only give one answer to the question who will be the last to be disrupted by AI, it would be Strategic Consulting. AI has a long way to go before it can reach the levels of complex decision making and creativity required.”
+Closing Thoughts for Techies
+
+While artificial intelligence is one of the most revolutionary technologies of the 21st century, its effects on existing markets are yet to be seen. We are at the beginning of the adoption curve for AI and its accompanying technologies, and the long-term benefits will soon be witnessed.
+
+With that being said, the current capabilities of AI make it clear that we are nowhere near discovering its full potential or impact on society. From lifestyle changes to behind-the-scenes improvements in normal societal institutions, AI is changing the way every industry conducts mission-critical operations.
+
+
